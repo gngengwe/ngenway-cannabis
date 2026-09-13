@@ -4,6 +4,14 @@ Derived from `NGenWay_Cannabis_Chat_Export.md` and `NGenWay_Cannabis_Deep_Resear
 (both in this directory as of 2026-09-13). This plan turns the conceptual/prototype
 conversation and the completed Deep Research deliverables into a buildable roadmap.
 
+**Status (2026-09-13): Phase 0 anchor-study extraction is complete.** All 3 anchor studies
+(Ramesh 2013, Bidwell 2020, McCartney 2021/2022) have been fetched from legitimate sources,
+extracted into `/sources/studies.json`, `/content/claims.json` (16 claims), and
+`/content/mechanisms.json` (9 mechanisms), and pass `npm run validate:data`. See git log for
+the three extraction commits. Remaining before Exhibits can render: Ramesh 2013 figure
+digitization (magnitudes for HR/VAS/craving/CO/weight are still `unavailable`, direction/
+significance only) and the Vite/React app scaffold itself -- no UI code exists yet.
+
 ---
 
 ## 0. Evaluation of the source .md files
