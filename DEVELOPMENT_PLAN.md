@@ -4,13 +4,26 @@ Derived from `NGenWay_Cannabis_Chat_Export.md` and `NGenWay_Cannabis_Deep_Resear
 (both in this directory as of 2026-09-13). This plan turns the conceptual/prototype
 conversation and the completed Deep Research deliverables into a buildable roadmap.
 
-**Status (2026-09-13): Phase 0 anchor-study extraction is complete.** All 3 anchor studies
-(Ramesh 2013, Bidwell 2020, McCartney 2021/2022) have been fetched from legitimate sources,
-extracted into `/sources/studies.json`, `/content/claims.json` (16 claims), and
-`/content/mechanisms.json` (9 mechanisms), and pass `npm run validate:data`. See git log for
-the three extraction commits. Remaining before Exhibits can render: Ramesh 2013 figure
-digitization (magnitudes for HR/VAS/craving/CO/weight are still `unavailable`, direction/
-significance only) and the Vite/React app scaffold itself -- no UI code exists yet.
+**Status (2026-09-13): MVP exhibit catalog complete.** All 3 anchor studies (Ramesh 2013,
+Bidwell 2020, McCartney 2021/2022) are extracted into `/sources/studies.json`,
+`/content/claims.json` (20 claims), and `/content/mechanisms.json` (9 mechanisms), passing
+`npm run validate:data`. Ramesh 2013's figures are visually estimated (4 of 5 figures; the
+5th held back as too low-resolution to trust). The Vite/React app in `/app` now has all three
+MVP exhibits built and Playwright-verified end to end (zero console errors, real screenshots
+checked, real layout bugs found and fixed along the way):
+
+- **Exhibit 001 — Dose ≠ High** (Ramesh 2013): dose + time explorer across 4 linked tracks,
+  honest about which tracks are actually time-resolved in the source and which aren't.
+- **Exhibit 002 — Potency ≠ Impairment** (Bidwell 2020): the "signal chain" — a shared
+  percent-difference axis showing the flower/concentrate gap shrinking (and reversing) from
+  blood THC through to behavior.
+- **Exhibit 003 — Blood THC ≠ Cannabis BAC** (McCartney 2021/2022): forest plots of pooled
+  correlation strength, occasional vs regular users.
+
+Remaining before this is truly production-ready: accessibility pass (keyboard nav, ARIA on
+custom SVG controls), responsive/mobile layout check, a real WebPlotDigitizer pass on Ramesh
+2013's figures (currently `estimated`, not `digitized`), and deployment to a `*.ngengwe.com`
+subdomain per the standard flow.
 
 ---
 
