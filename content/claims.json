@@ -20,8 +20,8 @@
     "claim_status": "supported",
     "interpretation_source": "statistical result",
     "direction_provenance": "exact",
-    "magnitude_provenance": "unavailable",
-    "magnitude_note": "Means/SEM by condition and timepoint are shown only in Figure 4 (bar/line chart); no numeric values given in text or tables. Source image captured at data/digitized/ramesh-2013/figure4-hr-co.jpg, pending formal digitization (e.g. WebPlotDigitizer) before any magnitude is plotted.",
+    "magnitude_provenance": "estimated",
+    "magnitude_note": "Means/SEM by condition (averaged across timepoints) visually estimated from Figure 4 -- see data/digitized/ramesh-2013/figure4-hr-co.estimated.json (moderate-high confidence; clean bar chart, but NOT pixel-calibrated digitization, and the axis is truncated at 58bpm, not 0). Treat as adequate for prototyping, not as final production data.",
     "source_ref": "Results § 'Heart rate, carbon monoxide levels, and weight of marijuana smoked' (P25); Figure 4"
   },
   {
@@ -42,8 +42,8 @@
     "claim_status": "supported",
     "interpretation_source": "statistical result",
     "direction_provenance": "exact",
-    "magnitude_provenance": "unavailable",
-    "magnitude_note": "Means/SEM shown only in Figure 4; pending digitization (data/digitized/ramesh-2013/figure4-hr-co.jpg).",
+    "magnitude_provenance": "estimated",
+    "magnitude_note": "Means/SEM by condition (averaged across timepoints) visually estimated from Figure 4 -- see data/digitized/ramesh-2013/figure4-hr-co.estimated.json (moderate-high confidence; clean bar chart, but NOT pixel-calibrated digitization, and the axis is truncated at 5ppm, not 0).",
     "source_ref": "Results § 'Heart rate, carbon monoxide levels, and weight of marijuana smoked' (P25); Figure 4",
     "mechanism_link": "ramesh-2013-self-titration"
   },
@@ -63,7 +63,7 @@
     "interpretation_source": "statistical result",
     "direction_provenance": "exact",
     "magnitude_provenance": "unavailable",
-    "magnitude_note": "Means/SEM by condition and timepoint shown only in Figure 1; pending digitization (data/digitized/ramesh-2013/figure1-mrf.jpg).",
+    "magnitude_note": "Figure 1 was reviewed (data/digitized/ramesh-2013/figure1-mrf.jpg) but the source image is only 400x166px -- too low-resolution to reliably read individual values or distinguish which marker belongs to which condition. Only the qualitative shape could be confirmed (0-puffs low/flat; active conditions cluster together, declining over time). See figure1-mrf.estimated.json for the full explanation; a higher-resolution source would be needed before this can move past 'unavailable'.",
     "source_ref": "Results § 'MRF' (P21); Figure 1"
   },
   {
@@ -81,8 +81,8 @@
     "claim_status_note": "this is the study's central Dose ≠ High finding: active cannabis separates from placebo, but 2/4/6 puffs do not separate from each other",
     "interpretation_source": "statistical result",
     "direction_provenance": "exact",
-    "magnitude_provenance": "unavailable",
-    "magnitude_note": "Means/SEM by condition and timepoint shown only in Figure 2; pending digitization (data/digitized/ramesh-2013/figure2-vas.jpg). This is the primary series for Exhibit 001's 'high' track.",
+    "magnitude_provenance": "estimated",
+    "magnitude_note": "Visually estimated time-course by condition -- see data/digitized/ramesh-2013/figure2-vas.estimated.json. LOW confidence for distinguishing 2-vs-4-vs-6 puffs specifically (markers overlap heavily -- which is itself consistent with the paper's finding); MODERATE confidence for the 0-vs-active separation and overall declining shape. This is the primary series for Exhibit 001's 'high' track; adequate for prototyping the slider/chart interaction, not yet for a production-grade exhibit.",
     "source_ref": "Results § 'VAS' (P22); Figure 2"
   },
   {
@@ -104,8 +104,8 @@
     "claim_status": "supported",
     "interpretation_source": "statistical result",
     "direction_provenance": "exact",
-    "magnitude_provenance": "unavailable",
-    "magnitude_note": "Means/SEM (averaged across timepoints) shown only in Figure 3; pending digitization (data/digitized/ramesh-2013/figure3-craving.jpg).",
+    "magnitude_provenance": "estimated",
+    "magnitude_note": "Means/SEM (averaged across timepoints) visually estimated from Figure 3 -- see data/digitized/ramesh-2013/figure3-craving.estimated.json (moderate-high confidence; clean 4-bar chart).",
     "source_ref": "Results § 'Marijuana craving' (P23); Figure 3"
   },
   {
@@ -129,8 +129,8 @@
     "claim_status": "supported",
     "interpretation_source": "measured result",
     "direction_provenance": "exact",
-    "magnitude_provenance": "unavailable",
-    "magnitude_note": "Values shown only in Figure 5; pending digitization (data/digitized/ramesh-2013/figure5-weight.jpg).",
+    "magnitude_provenance": "estimated",
+    "magnitude_note": "Values visually estimated from Figure 5 -- see data/digitized/ramesh-2013/figure5-weight.estimated.json (moderate-high confidence; grouped bar chart, shading pattern cross-validated against the known active/inactive cigarette-position structure). Axis is truncated at 0.150g, not 0.",
     "source_ref": "Results § P26; Figure 5",
     "mechanism_link": "ramesh-2013-self-titration"
   },

@@ -1,0 +1,17 @@
+{
+  "figure_id": "F5",
+  "study_id": "ramesh-2013",
+  "provenance": "estimated",
+  "method": "Visual inspection of the published chart image (data/digitized/ramesh-2013/figure5-weight.jpg); NOT pixel-calibrated digitization. Grouped bar chart, 3 cigarette-position bars per puff-condition, gridded y-axis 0.150-0.250g (truncated, does not start at 0). Bar shading (white=inactive cigarette smoked in that position, dark=active cigarette smoked in that position) was cross-checked against the condition_detail in sources/studies.json (active puffs always smoked before inactive; 0 puffs=3 inactive, 2 puffs=1 active+2 inactive, 4 puffs=2 active+1 inactive, 6 puffs=3 active) and matches exactly.",
+  "confidence": "moderate-high -- bars are cleanly separated, axis is gridded, shading pattern independently cross-validated against the known condition structure.",
+  "unit": "grams (pre/post smoking weight difference per cigarette)",
+  "axis_range": [0.150, 0.250],
+  "values": [
+    { "condition": "0 puffs", "cigarette_1": { "type": "inactive", "mean_est": 0.232, "sig": null }, "cigarette_2": { "type": "inactive", "mean_est": 0.231, "sig": null }, "cigarette_3": { "type": "inactive", "mean_est": 0.226, "sig": null } },
+    { "condition": "2 puffs", "cigarette_1": { "type": "active", "mean_est": 0.182, "sig": "**" }, "cigarette_2": { "type": "inactive", "mean_est": 0.210, "sig": null }, "cigarette_3": { "type": "inactive", "mean_est": 0.228, "sig": null } },
+    { "condition": "4 puffs", "cigarette_1": { "type": "active", "mean_est": 0.184, "sig": "**" }, "cigarette_2": { "type": "active", "mean_est": 0.177, "sig": "**" }, "cigarette_3": { "type": "inactive", "mean_est": 0.199, "sig": null } },
+    { "condition": "6 puffs", "cigarette_1": { "type": "active", "mean_est": 0.197, "sig": null }, "cigarette_2": { "type": "active", "mean_est": 0.177, "sig": "**" }, "cigarette_3": { "type": "active", "mean_est": 0.175, "sig": "*" } }
+  ],
+  "cross_check": "Significance pattern (2puffs-cig1 **, 4puffs-cig1 **, 4puffs-cig2 **, 6puffs-cig2 **, 6puffs-cig3 *) matches the exact text-reported comparisons in content/claims.json (ramesh-2013-cigarette-weight-self-titration) exactly.",
+  "claim_id": "ramesh-2013-cigarette-weight-self-titration"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": "F3",
+  "study_id": "ramesh-2013",
+  "provenance": "estimated",
+  "method": "Visual inspection of the published chart image (data/digitized/ramesh-2013/figure3-craving.jpg); NOT pixel-calibrated digitization (no tool like WebPlotDigitizer was used -- no axis calibration points were programmatically registered). Values read directly off a simple 4-bar chart with a clearly gridded y-axis (0-75mm in 15mm increments), which is a low-ambiguity chart type (no overlapping markers).",
+  "confidence": "moderate-high -- bars are cleanly separated and the axis is clearly gridded, but exact pixel-level precision is not claimed. Treat each value as +/- 1-2mm.",
+  "unit": "mm (VAS 'I want marijuana', averaged across all post-smoking timepoints)",
+  "values": [
+    { "condition": "0 puffs", "mean_est": 54, "sem_est": 4, "significance_marker": null },
+    { "condition": "2 puffs", "mean_est": 48, "sem_est": 4.5, "significance_marker": null },
+    { "condition": "4 puffs", "mean_est": 39, "sem_est": 4, "significance_marker": "**" },
+    { "condition": "6 puffs", "mean_est": 35, "sem_est": 3.5, "significance_marker": "***" }
+  ],
+  "cross_check": "Significance markers read off the chart (** at 4 puffs, *** at 6 puffs vs 0 puffs) are consistent with the exact text-reported comparisons in content/claims.json (ramesh-2013-craving-dose): 0>4 p<=.01, 0>6 p<=.01.",
+  "claim_id": "ramesh-2013-craving-dose"
+}

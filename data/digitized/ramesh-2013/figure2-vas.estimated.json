@@ -1,0 +1,34 @@
+{
+  "figure_id": "F2",
+  "study_id": "ramesh-2013",
+  "provenance": "estimated",
+  "method": "Visual inspection of the published chart image (data/digitized/ramesh-2013/figure2-vas.jpg); NOT pixel-calibrated digitization. This is a 4-line overlapping time-course chart per panel (0/2/4/6 puffs) with 7 timepoints (15,30,60,90,120,180,210 min) and overlapping SEM error bars, which is a HIGH-ambiguity chart type -- the 2/4/6-puff markers frequently overlap or sit within one SEM of each other, making it genuinely hard to attribute a given marker to the correct condition at several timepoints (this overlap is itself the paper's finding: these conditions are not dose-dependent). Values below are best-effort per-condition reads where the marker was reasonably distinguishable, with confidence notes where it was not.",
+  "confidence": "low-to-moderate and NOT uniform across conditions -- see per-series notes. Do not treat 2-vs-4-vs-6 differences below as reliable; do treat the 0-vs-active separation and the overall declining time-course shape as reliable.",
+  "priority_note": "This is the primary series for Exhibit 001's 'high' track. Recommend re-digitizing with an actual calibrated tool (WebPlotDigitizer) using the original high-resolution image before this data ships in a production exhibit -- these estimates are adequate for prototyping the interaction (slider behavior, chart layout) but not as the final source of truth.",
+  "panels": [
+    {
+      "variable": "high",
+      "unit": "mm VAS",
+      "confidence": "moderate for 0-puffs (clearly separated, low overlap); low for distinguishing 2 vs 4 vs 6 puffs (markers cluster tightly, especially t>=60)",
+      "series": {
+        "0_puffs":  [ {"t":15,"v":13}, {"t":30,"v":14}, {"t":60,"v":7},  {"t":90,"v":6},  {"t":120,"v":6},  {"t":180,"v":3}, {"t":210,"v":3} ],
+        "2_puffs":  [ {"t":15,"v":43}, {"t":30,"v":40}, {"t":60,"v":27}, {"t":90,"v":20}, {"t":120,"v":18}, {"t":180,"v":8}, {"t":210,"v":7} ],
+        "4_puffs":  [ {"t":15,"v":45}, {"t":30,"v":51}, {"t":60,"v":30}, {"t":90,"v":21}, {"t":120,"v":19}, {"t":180,"v":9}, {"t":210,"v":8} ],
+        "6_puffs":  [ {"t":15,"v":43}, {"t":30,"v":43}, {"t":60,"v":28}, {"t":90,"v":19}, {"t":120,"v":17}, {"t":180,"v":7}, {"t":210,"v":6} ]
+      }
+    },
+    {
+      "variable": "stimulated",
+      "unit": "mm VAS",
+      "confidence": "moderate for 0-puffs; low for distinguishing 2 vs 4 vs 6 puffs",
+      "series": {
+        "0_puffs":  [ {"t":15,"v":19}, {"t":30,"v":20}, {"t":60,"v":14}, {"t":90,"v":19}, {"t":120,"v":18}, {"t":180,"v":16}, {"t":210,"v":16} ],
+        "2_puffs":  [ {"t":15,"v":38}, {"t":30,"v":38}, {"t":60,"v":31}, {"t":90,"v":30}, {"t":120,"v":26}, {"t":180,"v":23}, {"t":210,"v":22} ],
+        "4_puffs":  [ {"t":15,"v":40}, {"t":30,"v":35}, {"t":60,"v":28}, {"t":90,"v":26}, {"t":120,"v":24}, {"t":180,"v":20}, {"t":210,"v":19} ],
+        "6_puffs":  [ {"t":15,"v":36}, {"t":30,"v":32}, {"t":60,"v":20}, {"t":90,"v":20}, {"t":120,"v":19}, {"t":180,"v":17}, {"t":210,"v":17} ]
+      }
+    }
+  ],
+  "cross_check": "0-puffs << active-puffs separation, and the 'active conditions largely overlap each other' shape, are consistent with the exact text-reported findings (ramesh-2013-vas-high-not-dose-dependent): 'high' and 'stimulated' increase vs 0 puffs (p<=.001 and p<=.05 respectively) but are not dose-dependent among active conditions -- the visual clustering IS the finding, not a reading error.",
+  "claim_id": "ramesh-2013-vas-high-not-dose-dependent"
+}

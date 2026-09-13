@@ -1,0 +1,9 @@
+{
+  "figure_id": "F1",
+  "study_id": "ramesh-2013",
+  "provenance": "estimated",
+  "method": "Visual inspection of a LOW-RESOLUTION source image (data/digitized/ramesh-2013/figure1-mrf.jpg is only 400x166px, much smaller than the other 4 figures) showing 4 overlapping time-course panels (Good effect, Strength, Take Again, Liking) with 4 conditions and ~7 timepoints each. NOT pixel-calibrated digitization.",
+  "confidence": "low -- image resolution is too small to reliably distinguish individual timepoint values or which of the 2/4/6-puff markers is which. Only the qualitative shape (0-puffs flat/low around 10-20mm; active conditions cluster together starting ~40-48mm and declining to ~10-20mm by the final timepoints, similar overall shape to Figure 2) can be stated with any confidence.",
+  "recommendation": "Do not use this file as a numeric source. Re-fetch the original figure at full resolution from the publisher (the PMC-served image itself appears to be a low-res thumbnail) before attempting real digitization. The 4 MRF sub-scales are lower priority for Exhibit 001 than the VAS 'high'/'stimulated' series in Figure 2, so this was not pursued further in this pass.",
+  "claim_id": "ramesh-2013-mrf-not-dose-dependent"
+}

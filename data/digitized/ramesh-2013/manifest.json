@@ -1,7 +1,7 @@
 {
   "study_id": "ramesh-2013",
-  "status": "images captured, NOT yet numerically digitized",
-  "note": "Files below are the original published figure images, downloaded directly from the PMC-hosted article (cdn.ncbi.nlm.nih.gov/pmc/blobs/...) for reproducible digitization. No pixel-reading/digitization has been performed yet -- do not treat any value derived from these images as data until run through a documented digitization pass (e.g. WebPlotDigitizer) and recorded here with axis calibration and method.",
+  "status": "visually estimated (2026-09-13) -- NOT pixel-calibrated digitization",
+  "note": "Files below are the original published figure images, downloaded directly from the PMC-hosted article (cdn.ncbi.nlm.nih.gov/pmc/blobs/...). Each figure except F1 now has a sibling *.estimated.json with values read by visual inspection, provenance='estimated', and an explicit confidence note. F1 (MRF) remains unreadable at usable confidence -- its source image is low-resolution (400x166px). None of these have been run through an actual calibrated tool (WebPlotDigitizer or equivalent) with registered axis-calibration points; that upgrade from 'estimated' to 'digitized' is still open work before any of this data should be treated as production-grade. Clean bar charts (F3, F4, F5) are moderate-high confidence; overlapping line charts (F2, and F1 if ever revisited) are low-to-moderate confidence, especially for distinguishing the 2/4/6-puff active conditions from each other.",
   "figures": [
     {
       "id": "F1",

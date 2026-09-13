@@ -1,0 +1,33 @@
+{
+  "figure_id": "F4",
+  "study_id": "ramesh-2013",
+  "provenance": "estimated",
+  "method": "Visual inspection of the published chart image (data/digitized/ramesh-2013/figure4-hr-co.jpg); NOT pixel-calibrated digitization. Two side-by-side simple bar charts (CO panel, HR panel), both with clearly gridded but TRUNCATED y-axes -- CO axis runs 5-10 ppm, HR axis runs 58-74 bpm, NOT starting at zero. This must be preserved in any rendering (a naive zero-baselined bar chart would visually exaggerate the effect relative to the source).",
+  "confidence": "moderate-high -- bars are cleanly separated and axes are gridded, but exact pixel-level precision is not claimed. Treat each value as +/- 0.1-0.2 ppm (CO) or +/- 0.3-0.5 bpm (HR).",
+  "series": [
+    {
+      "variable": "expired CO",
+      "unit": "ppm (mean across all post-smoking timepoints)",
+      "axis_range": [5, 10],
+      "values": [
+        { "condition": "0 puffs", "mean_est": 9.0, "sem_est": 0.3, "significance_marker": null },
+        { "condition": "2 puffs", "mean_est": 8.4, "sem_est": 0.35, "significance_marker": null },
+        { "condition": "4 puffs", "mean_est": 7.9, "sem_est": 0.3, "significance_marker": "**" },
+        { "condition": "6 puffs", "mean_est": 7.35, "sem_est": 0.25, "significance_marker": "***" }
+      ]
+    },
+    {
+      "variable": "heart rate",
+      "unit": "bpm (mean across all post-smoking timepoints)",
+      "axis_range": [58, 74],
+      "values": [
+        { "condition": "0 puffs", "mean_est": 61.5, "sem_est": 0.8, "significance_marker": null },
+        { "condition": "2 puffs", "mean_est": 64.3, "sem_est": 0.9, "significance_marker": "*" },
+        { "condition": "4 puffs", "mean_est": 66.7, "sem_est": 1.1, "significance_marker": "***" },
+        { "condition": "6 puffs", "mean_est": 69.2, "sem_est": 1.1, "significance_marker": "***" }
+      ]
+    }
+  ],
+  "cross_check": "Significance markers read off the chart are consistent with the exact text-reported directional comparisons (ramesh-2013-hr-dose, ramesh-2013-co-dose): HR increases at all active conditions (0<2 *, and 4/6 ***), CO decreases significantly at 4 (**) and 6 (***) puffs vs 0.",
+  "claim_ids": ["ramesh-2013-hr-dose", "ramesh-2013-co-dose"]
+}
