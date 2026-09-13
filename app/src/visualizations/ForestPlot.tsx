@@ -74,7 +74,15 @@ export function ForestPlot({
           </tbody>
         </table>
       ) : (
-        <svg viewBox={`0 0 ${WIDTH} ${height}`} role="img" aria-label={`${title}: correlation forest plot`}>
+        <div style={{ overflowX: "auto" }}>
+        <svg
+          width={WIDTH}
+          height={height}
+          viewBox={`0 0 ${WIDTH} ${height}`}
+          role="img"
+          aria-label={`${title}: correlation forest plot`}
+          style={{ display: "block" }}
+        >
           <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
             {bands.map(({ limit, opacity }) => {
               const prevLimit = limit === 0.2 ? 0 : limit - 0.2;
@@ -117,6 +125,7 @@ export function ForestPlot({
             </text>
           </g>
         </svg>
+        </div>
       )}
     </div>
   );

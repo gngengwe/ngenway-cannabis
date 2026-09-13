@@ -36,11 +36,23 @@ async function fetchJson<T>(path: string): Promise<T> {
   return (await res.json()) as T;
 }
 
+// Both the resolved data AND the in-flight promise are cached at module scope: all 3
+// exhibits mount at once (kept alive under `hidden` per the ARIA tabpanel pattern in
+// App.tsx) and call this on first paint, before any fetch has resolved -- without also
+// caching the promise, each would independently re-fire all 6 requests.
 let cached: EvidenceData | null = null;
+let inFlight: Promise<EvidenceData> | null = null;
 
-async function loadEvidenceData(): Promise<EvidenceData> {
-  if (cached) return cached;
+function loadEvidenceData(): Promise<EvidenceData> {
+  if (cached) return Promise.resolve(cached);
+  if (inFlight) return inFlight;
+  inFlight = fetchEvidenceData().finally(() => {
+    inFlight = null;
+  });
+  return inFlight;
+}
 
+async function fetchEvidenceData(): Promise<EvidenceData> {
   const [studies, claims, mechanisms, vas, craving, hrCo, bidwellTable2] = await Promise.all([
     fetchJson<StudiesById>("/data/sources/studies.json"),
     fetchJson<Claim[]>("/data/content/claims.json"),
