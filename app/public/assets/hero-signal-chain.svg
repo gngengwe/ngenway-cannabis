@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title">
+  <title id="title">Five measured cannabis signals with visible gaps</title>
+  <rect width="1200" height="560" fill="#0d0d0d"/>
+  <g fill="none" stroke="#2c2c2a" stroke-width="2"><path d="M80 100h1040M80 220h1040M80 340h1040M80 460h1040"/></g>
+  <g stroke-linecap="round" stroke-width="8"><path d="M110 410C220 340 270 240 365 255S505 380 600 300s130-155 240-120 120 150 250 80" stroke="#3987e5"/><path d="M110 410C220 340 270 240 365 255" stroke="#cde2fb"/></g>
+  <g fill="#fab219"><circle cx="110" cy="410" r="8"/><circle cx="365" cy="255" r="8"/><circle cx="600" cy="300" r="8"/><circle cx="840" cy="180" r="8"/><circle cx="1090" cy="260" r="8"/></g>
+  <g fill="#c3c2b7" font-family="system-ui,sans-serif" font-size="22"><text x="75" y="500">POTENCY</text><text x="300" y="210">DOSE</text><text x="545" y="355">BLOOD</text><text x="800" y="135">FEELING</text><text x="1015" y="315">IMPAIRMENT</text></g>
+  <g fill="#898781" font-family="system-ui,sans-serif" font-size="16"><text x="540" y="525">same story assumed</text><text x="540" y="548" fill="#fab219">different signals observed</text></g>
+</svg>

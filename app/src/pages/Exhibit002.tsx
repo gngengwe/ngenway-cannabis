@@ -5,6 +5,7 @@ import { FormLegend } from "../components/FormLegend";
 import { MethodologyPanel } from "../components/MethodologyPanel";
 import { GapChart } from "../visualizations/GapChart";
 import { GroupTimeCourseChart } from "../visualizations/GroupTimeCourseChart";
+import { Figure } from "../components/Figure";
 
 const CHAIN_MEASURES = [
   { measureName: "THC", gapClaimId: "bidwell-2020-gap-thc", label: "Blood THC" },
@@ -57,6 +58,10 @@ export function Exhibit002() {
 
       <div
         style={{
+          display: "flex",
+          gap: 16,
+          alignItems: "center",
+          flexWrap: "wrap",
           padding: "12px 16px",
           background: "var(--surface-1)",
           border: "1px solid var(--border)",
@@ -64,7 +69,18 @@ export function Exhibit002() {
           marginBottom: 20,
         }}
       >
+        <Figure src="/assets/exhibit-002-flower-concentrate.svg" alt="" maxWidth={220} aspectRatio="800 / 420" />
         <FormLegend />
+      </div>
+
+      <div style={{ display: "flex", justifyContent: "center", margin: "0 0 20px" }}>
+        <Figure
+          src="/assets/exhibit-002-blood-gap.svg"
+          alt=""
+          caption="Illustration previewing the signal chain below -- see the gap bars and charts for the actual measured values."
+          maxWidth={680}
+          aspectRatio="800 / 360"
+        />
       </div>
 
       <section style={{ marginBottom: 28 }}>
@@ -114,6 +130,9 @@ export function Exhibit002() {
               <ProvenanceBadge provenance="exact" note="Means and SEs at every timepoint are reported directly in Table 2." />
             </h4>
             <p style={{ margin: "0 0 6px", fontSize: 12, color: "var(--text-muted)" }}>{gapClaim.relationship}</p>
+            {label === "Balance (eyes closed)" && (
+              <Figure src="/assets/exhibit-002-balance.svg" alt="" maxWidth={180} aspectRatio="520 / 420" />
+            )}
             <GroupTimeCourseChart measure={measure} />
           </div>
         ))}

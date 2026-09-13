@@ -6,6 +6,7 @@ import { ProvenanceBadge } from "../components/ProvenanceBadge";
 import { MethodologyPanel } from "../components/MethodologyPanel";
 import { TimeCourseChart } from "../visualizations/TimeCourseChart";
 import { DoseBarChart } from "../visualizations/DoseBarChart";
+import { Figure } from "../components/Figure";
 
 const TIME_NOTE =
   "Heart rate, expired CO, and craving are reported in the source only as an average across all post-smoking timepoints -- the paper does not publish a time-resolved series for these measures. This value does not change as you move the time slider above; only the Experience track is time-resolved.";
@@ -91,6 +92,15 @@ export function Exhibit001() {
         <p style={{ margin: "0 0 12px", fontSize: 13, color: "var(--text-secondary)" }}>
           {highClaim?.relationship}
         </p>
+        <div style={{ marginBottom: 16 }}>
+          <Figure
+            src="/assets/exhibit-001-high-flatline.svg"
+            alt=""
+            caption="Illustration previewing the contrast below -- not source data. See the charts and provenance badges for the actual measured values."
+            maxWidth={680}
+            aspectRatio="800 / 360"
+          />
+        </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20 }}>
           <TimeCourseChart
             title="I feel high"
@@ -129,6 +139,7 @@ export function Exhibit001() {
             )}
           </h3>
           <p style={{ margin: "0 0 8px", fontSize: 13, color: "var(--text-secondary)" }}>{hrClaim?.relationship}</p>
+          <Figure src="/assets/exhibit-001-pulse.svg" alt="" maxWidth={160} aspectRatio="800 / 360" />
           <DoseBarChart
             title="Heart rate"
             unit="bpm"
@@ -194,6 +205,16 @@ export function Exhibit001() {
           <em>self-titration</em> in the methodology panel below), meaning less of that rising nominal dose
           reached the body than the puff count alone suggests.
         </p>
+      </div>
+
+      <div style={{ display: "flex", justifyContent: "center", margin: "24px 0" }}>
+        <Figure
+          src="/assets/exhibit-001-inhale.svg"
+          alt=""
+          caption="Illustration: more active puffs did not mean proportionately more inhaled -- see self-titration below."
+          maxWidth={220}
+          aspectRatio="520 / 420"
+        />
       </div>
 
       <MethodologyPanel study={study} />

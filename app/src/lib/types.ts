@@ -44,6 +44,7 @@ export interface Claim {
   significance?: unknown;
   evidence_type: EvidenceType;
   claim_status: ClaimStatus;
+  claim_status_note?: string;
   interpretation_source: string;
   direction_provenance?: Provenance;
   magnitude_provenance?: Provenance;

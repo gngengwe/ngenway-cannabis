@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title">
+  <title id="title">Dose dial with separated response traces</title>
+  <rect width="900" height="500" fill="#1a1a19"/>
+  <circle cx="260" cy="250" r="150" fill="none" stroke="#383835" stroke-width="22"/><path d="M155 145a150 150 0 0 1 210 0" fill="none" stroke="#3987e5" stroke-width="22" stroke-linecap="round"/>
+  <path d="M260 250l88-80" stroke="#fab219" stroke-width="8" stroke-linecap="round"/><circle cx="260" cy="250" r="13" fill="#fab219"/>
+  <g fill="#fff" font-family="system-ui,sans-serif"><text x="190" y="278" font-size="58">6</text><text x="192" y="308" font-size="16" fill="#c3c2b7">PUFFS</text></g>
+  <g fill="none" stroke-linecap="round"><path d="M500 170h270" stroke="#2c2c2a" stroke-width="2"/><path d="M500 250h270" stroke="#2c2c2a" stroke-width="2"/><path d="M500 330h270" stroke="#2c2c2a" stroke-width="2"/><path d="M500 170q70 80 140 0t130 70" stroke="#3987e5" stroke-width="7"/><path d="M500 330q70-25 140 0t130-10" stroke="#d95926" stroke-width="7"/></g>
+</svg>

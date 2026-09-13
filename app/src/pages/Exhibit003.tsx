@@ -4,6 +4,7 @@ import { ProvenanceBadge } from "../components/ProvenanceBadge";
 import { StatTile } from "../components/StatTile";
 import { MethodologyPanel } from "../components/MethodologyPanel";
 import { ForestPlot } from "../visualizations/ForestPlot";
+import { Figure } from "../components/Figure";
 
 export function Exhibit003() {
   const state = useEvidenceData();
@@ -61,6 +62,16 @@ export function Exhibit003() {
         <ProvenanceBadge provenance={scaleClaim?.magnitude_provenance ?? "exact"} note={scaleClaim?.relationship} />
       </div>
 
+      <div style={{ display: "flex", justifyContent: "center", margin: "0 0 20px" }}>
+        <Figure
+          src="/assets/exhibit-003-population.svg"
+          alt=""
+          caption="Illustration: the same biomarker is compared across two different populations below."
+          maxWidth={420}
+          aspectRatio="800 / 420"
+        />
+      </div>
+
       <section style={{ marginBottom: 28 }}>
         <h3 style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 15, margin: "0 0 4px" }}>
           Occasional cannabis users
@@ -74,6 +85,14 @@ export function Exhibit003() {
           meta-analyst would use to read these. Even the single strongest relationship found in
           the whole review (blood 11-COOH-THC) only reaches "moderate."
         </p>
+        <div style={{ display: "flex", justifyContent: "center", margin: "0 0 16px" }}>
+          <Figure
+            src="/assets/exhibit-003-biomarker.svg"
+            alt="Illustration of confidence intervals for several biomarkers, most crossing toward zero association"
+            maxWidth={360}
+            aspectRatio="800 / 420"
+          />
+        </div>
         <ForestPlot title="Correlation with impairment (R, 95% CI) — inhaled route unless noted" values={occasionalValues} />
       </section>
 

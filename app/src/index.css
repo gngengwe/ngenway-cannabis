@@ -1,60 +1,39 @@
 :root {
-  color-scheme: light;
-  --surface-1: #fcfcfb;
-  --page: #f9f9f7;
-  --text-primary: #0b0b0b;
-  --text-secondary: #52514e;
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface-1: #1a1a19;
+  --surface-2: #232322;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
   --text-muted: #898781;
-  --gridline: #e1e0d9;
-  --baseline: #c3c2b7;
-  --border: rgba(11, 11, 11, 0.1);
+  --gridline: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.1);
 
-  /* Ordinal dose ramp (single hue, light->dark = low->high dose), per the dataviz
-     skill's ordinal-ramp guidance: lightest step no lighter than step 250 on light
-     surface. */
-  --dose-0: #86b6ef; /* step 250 */
-  --dose-2: #3987e5; /* step 400 */
-  --dose-4: #1c5cab; /* step 550 */
-  --dose-6: #0d366b; /* step 700 */
+  /* Ordinal dose ramp (single hue, light->dark hex value = low->high dose). Darkest
+     step kept no darker than step 600 so it still clears 3:1 on the dark surface. */
+  --dose-0: #cde2fb; /* step 100 */
+  --dose-2: #6da7ec; /* step 300 */
+  --dose-4: #2a78d6; /* step 450 */
+  --dose-6: #184f95; /* step 600 */
 
   /* Flower vs Concentrate is a nominal (identity) comparison, not ordered -- fixed
      categorical slots 1 & 2, in Table 2's own column order (flower first). */
-  --form-flower: #2a78d6; /* categorical slot 1: blue */
-  --form-concentrate: #eb6834; /* categorical slot 2: orange */
+  --form-flower: #3987e5;
+  --form-concentrate: #d95926;
 
   --status-warning: #fab219;
   --status-good: #0ca30c;
 
   /* Generic "is this specific point estimate significant" encoding, decoupled from any
      exhibit's own subject-matter colors (dose, form) so it reads the same everywhere. */
-  --finding-significant: #2a78d6;
+  --finding-significant: #3987e5;
   --finding-not-significant: #898781;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --surface-1: #1a1a19;
-    --page: #0d0d0d;
-    --text-primary: #ffffff;
-    --text-secondary: #c3c2b7;
-    --text-muted: #898781;
-    --gridline: #2c2c2a;
-    --baseline: #383835;
-    --border: rgba(255, 255, 255, 0.1);
-
-    /* Darkest step no darker than step 600 on dark surface. */
-    --dose-0: #cde2fb; /* step 100 */
-    --dose-2: #6da7ec; /* step 300 */
-    --dose-4: #2a78d6; /* step 450 */
-    --dose-6: #184f95; /* step 600 */
-
-    --form-flower: #3987e5;
-    --form-concentrate: #d95926;
-
-    --finding-significant: #3987e5;
-    --finding-not-significant: #898781;
-  }
+  /* Narrative-page accent: reuses the same blue that already means "evidence-backed"
+     everywhere else on the site, rather than introducing a new hue for CTAs. */
+  --accent: #3987e5;
+  --accent-ink: #eaf2fd;
 }
 
 * {
@@ -84,4 +63,30 @@ button {
 
 a {
   color: inherit;
+}
+
+/* Scroll-reveal primitive used by the story page. Respects reduced-motion: the class
+   toggle still happens (so nothing is ever permanently hidden from a user who never
+   triggers JS), it just skips the transition. */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .hide-narrow {
+    display: none;
+  }
 }

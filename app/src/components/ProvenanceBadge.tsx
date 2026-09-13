@@ -28,6 +28,18 @@ const COLORS: Record<Provenance, string> = {
   unavailable: "var(--text-muted)",
 };
 
+// The "source traced" stamp is only true for states where a real number was actually
+// traced to the source -- showing it for "estimated" (eyeballed, not tool-verified) or
+// "unavailable" (explicitly not traced) would overclaim exactly what this badge exists
+// to prevent, so it's restricted to the three provenance states where it's accurate.
+const SHOWS_STAMP: Record<Provenance, boolean> = {
+  exact: true,
+  calculated: true,
+  digitized: true,
+  estimated: false,
+  unavailable: false,
+};
+
 /** A small inline badge that discloses how a displayed number was sourced, on hover/focus. */
 export function ProvenanceBadge({
   provenance,
@@ -85,6 +97,15 @@ export function ProvenanceBadge({
             boxShadow: "0 4px 16px rgba(0,0,0,0.15)",
           }}
         >
+          {SHOWS_STAMP[provenance] && (
+            <img
+              src="/assets/ui-provenance-stamp.svg"
+              alt=""
+              width={18}
+              height={18}
+              style={{ float: "left", marginRight: 6, marginTop: 1 }}
+            />
+          )}
           {EXPLANATIONS[provenance]}
           {note && (
             <>
