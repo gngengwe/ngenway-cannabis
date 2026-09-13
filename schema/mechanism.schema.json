@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ngenway-cannabis/mechanism.schema.json",
+  "title": "Mechanism",
+  "description": "A hidden variable/confounder invoked to explain a claim, tagged by whether it was demonstrated in-study, is an author interpretation, or is an NGenWay hypothesis.",
+  "type": "object",
+  "required": ["id", "name", "description", "interpretation_source", "study_id"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "interpretation_source": {
+      "type": "string",
+      "enum": ["demonstrated mechanism", "author interpretation", "NGenWay hypothesis"]
+    },
+    "supporting_claims": { "type": "array", "items": { "type": "string" } },
+    "study_id": { "type": "string" },
+    "source_ref": { "type": "string" }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ramesh-2013-self-titration",
+    "name": "Self-titration (reduced inhalation at higher active-puff conditions)",
+    "description": "Participants inhaled less smoke from active cigarettes than from position-matched inactive cigarettes, and expired CO fell at higher active-puff conditions — both indicate participants reduced how much they actually inhaled as nominal active dose rose, partially decoupling nominal dose from realized exposure.",
+    "interpretation_source": "demonstrated mechanism",
+    "supporting_claims": ["ramesh-2013-co-dose", "ramesh-2013-cigarette-weight-self-titration"],
+    "study_id": "ramesh-2013",
+    "source_ref": "Results P25-P26; Discussion P27"
+  },
+  {
+    "id": "ramesh-2013-expectancy",
+    "name": "Expectancy effects on subjective ratings",
+    "description": "Authors hypothesize that because active puffs were always smoked before inactive puffs, the direct effects of the first two active puffs raised participants' expectation that subsequent puffs were also active — leading them to rate 2, 4, and 6 puffs similarly despite differing cardiovascular responses. Cites prior literature (Camí et al. 1991; Metrik et al. 2009) that subjective responses are more expectancy-sensitive than physiological ones.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["ramesh-2013-mrf-not-dose-dependent", "ramesh-2013-vas-high-not-dose-dependent"],
+    "study_id": "ramesh-2013",
+    "source_ref": "Discussion P28"
+  },
+  {
+    "id": "ramesh-2013-tolerance-limitation",
+    "name": "Tolerance in heavy/daily users may mask subtle dose differences",
+    "description": "Study limitation raised by authors: because the sample was daily marijuana smokers, tolerance to subjective/performance-impairing effects may make it harder for this population to distinguish subtle differences within a narrow active-dose range. Authors note results might differ in a less-exposed population.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["ramesh-2013-mrf-not-dose-dependent", "ramesh-2013-vas-high-not-dose-dependent"],
+    "study_id": "ramesh-2013",
+    "source_ref": "Discussion P29"
+  }
+]

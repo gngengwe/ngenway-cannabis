@@ -1,0 +1,17 @@
+{
+  "name": "ngenway-cannabis",
+  "version": "0.1.0",
+  "description": "NGenWay Cannabis — evidence-first interactive visualization of the gaps between cannabis potency, dose, exposure, subjective experience, and impairment.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:data": "node scripts/validation/validate-data.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

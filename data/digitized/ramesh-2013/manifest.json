@@ -1,0 +1,61 @@
+{
+  "study_id": "ramesh-2013",
+  "status": "images captured, NOT yet numerically digitized",
+  "note": "Files below are the original published figure images, downloaded directly from the PMC-hosted article (cdn.ncbi.nlm.nih.gov/pmc/blobs/...) for reproducible digitization. No pixel-reading/digitization has been performed yet -- do not treat any value derived from these images as data until run through a documented digitization pass (e.g. WebPlotDigitizer) and recorded here with axis calibration and method.",
+  "figures": [
+    {
+      "id": "F1",
+      "file": "figure1-mrf.jpg",
+      "caption": "Representative subjective ratings of marijuana quality as a function of number of active puffs and time as measured by the MRF (0 mm = not at all; 100 mm = extremely). Data presented as average group values for each post-smoking time point (+/- SEM). Active marijuana increased subjective ratings (0 puffs < 2, 4, or 6 puffs; p<=.001); dose-dependent effects were not observed.",
+      "series": ["strength", "good effect", "take again", "liking"],
+      "x_axis": "time post-smoking (min): 15, 30, 60, 90, 120, 180, 210",
+      "y_axis": "VAS rating, 0-100 mm",
+      "conditions_plotted": ["0 puffs", "2 puffs", "4 puffs", "6 puffs"],
+      "error_bars": "SEM",
+      "claim_ids": ["ramesh-2013-mrf-not-dose-dependent"]
+    },
+    {
+      "id": "F2",
+      "file": "figure2-vas.jpg",
+      "caption": "Representative subjective ratings of drug effect as a function of number of active puffs and time as measured by the SE-VAS (0 mm = not at all; 100 mm = extremely). Data presented as average group values for each post-smoking time point (+/- SEM). Active marijuana increased subjective ratings ('high' p<=.001, 'stimulated' p<=.05), but not dose-dependently.",
+      "series": ["high", "stimulated"],
+      "x_axis": "time post-smoking (min): 15, 30, 60, 90, 120, 180, 210",
+      "y_axis": "VAS rating, 0-100 mm",
+      "conditions_plotted": ["0 puffs", "2 puffs", "4 puffs", "6 puffs"],
+      "error_bars": "SEM",
+      "priority": "highest -- this is the primary series for Exhibit 001 (Dose x Time explorer, 'high' track)",
+      "claim_ids": ["ramesh-2013-vas-high-not-dose-dependent"]
+    },
+    {
+      "id": "F3",
+      "file": "figure3-craving.jpg",
+      "caption": "Ratings for 'I want marijuana' on the SE-VAS as a function of number of active puffs (0 mm = not at all; 100 mm = extremely). Data presented as average group values across all post-smoking time points (+/- SEM). Significance markers vs 0-puff condition included in the original figure (*, **, ***).",
+      "series": ["I want marijuana"],
+      "x_axis": "active puffs: 0, 2, 4, 6",
+      "y_axis": "VAS rating, 0-100 mm, averaged across timepoints",
+      "error_bars": "SEM",
+      "claim_ids": ["ramesh-2013-craving-dose"]
+    },
+    {
+      "id": "F4",
+      "file": "figure4-hr-co.jpg",
+      "caption": "Heart rate (bpm) and expired carbon monoxide (ppm) as a function of number of active puffs and time. Data presented as mean values (+/- SEM) across all post-smoking time points. Dual-axis or paired-panel figure -- confirm layout during digitization.",
+      "series": ["heart rate", "expired CO"],
+      "x_axis": "active puffs: 0, 2, 4, 6 (averaged across timepoints per caption)",
+      "y_axis": "heart rate (bpm); expired CO (ppm)",
+      "error_bars": "SEM",
+      "claim_ids": ["ramesh-2013-hr-dose", "ramesh-2013-co-dose"]
+    },
+    {
+      "id": "F5",
+      "file": "figure5-weight.jpg",
+      "caption": "Amount of marijuana cigarettes smoked, depicted as difference between pre-smoking and post-smoking cigarette weights, by cigarette position (1st/2nd/3rd) and puff condition.",
+      "series": ["cigarette 1 weight delta", "cigarette 2 weight delta", "cigarette 3 weight delta"],
+      "x_axis": "active puffs: 0, 2, 4, 6",
+      "y_axis": "weight smoked (mg, unconfirmed -- verify unit on axis during digitization)",
+      "error_bars": "unconfirmed -- verify during digitization",
+      "claim_ids": ["ramesh-2013-cigarette-weight-self-titration"]
+    }
+  ],
+  "next_step": "Run each figure through WebPlotDigitizer (or equivalent), record axis calibration points and extracted series in a sibling file (e.g. figure2-vas.digitized.json) with provenance='digitized', extraction_method, and per-point uncertainty. Only then populate /data/normalized with numeric series for these claims."
+}

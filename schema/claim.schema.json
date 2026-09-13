@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ngenway-cannabis/claim.schema.json",
+  "title": "Claim",
+  "description": "A single evidence-backed finding from a study, carrying the 4-part evidence/certainty model: evidence_type, claim_status, interpretation_source, and per-field provenance.",
+  "type": "object",
+  "required": [
+    "id", "study_id", "variable", "relationship",
+    "evidence_type", "claim_status", "interpretation_source"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "study_id": { "type": "string" },
+    "variable": { "type": "string" },
+    "unit": { "type": "string" },
+    "relationship": { "type": "string" },
+    "significance": { "type": "object" },
+    "evidence_type": {
+      "type": "string",
+      "enum": ["controlled experiment", "naturalistic experiment", "observational", "systematic review", "meta-analysis"]
+    },
+    "claim_status": {
+      "type": "string",
+      "enum": ["supported", "mixed", "speculative", "unknown"]
+    },
+    "interpretation_source": {
+      "type": "string",
+      "enum": ["measured result", "statistical result", "authors' interpretation", "author interpretation", "NGenWay inference"]
+    },
+    "direction_provenance": {
+      "type": "string",
+      "enum": ["exact", "calculated", "digitized", "estimated", "unavailable"]
+    },
+    "magnitude_provenance": {
+      "type": "string",
+      "enum": ["exact", "calculated", "digitized", "estimated", "unavailable"]
+    },
+    "magnitude_note": { "type": "string" },
+    "source_ref": { "type": "string" },
+    "mechanism_link": { "type": "string" }
+  }
+}

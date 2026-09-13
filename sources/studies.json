@@ -1,0 +1,62 @@
+{
+  "ramesh-2013": {
+    "id": "ramesh-2013",
+    "citation": {
+      "authors": "Ramesh D, Haney M, Cooper ZD",
+      "title": "Marijuana's dose-dependent effects in daily marijuana smokers",
+      "journal": "Experimental and Clinical Psychopharmacology",
+      "year": 2013,
+      "volume": 21,
+      "issue": 4,
+      "pages": "287-293",
+      "doi": "10.1037/a0033661",
+      "pmid": "23937597",
+      "pmcid": "PMC4547548",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4547548/",
+      "retrieved": "2026-09-13",
+      "retrieval_method": "full HTML text fetched directly from PMC article viewer (pmc.ncbi.nlm.nih.gov), verified as complete article (abstract through references, all 5 figure captions and both tables present)"
+    },
+    "design": "within-subject, double-blind, placebo-controlled",
+    "setting": "New York State Psychiatric Institute, outpatient laboratory; part of a larger 8-session naltrexone/marijuana interaction study (only placebo-naltrexone sessions reported here)",
+    "n_enrolled": 23,
+    "n_completed": 19,
+    "n_analyzed": 18,
+    "analysis_note": "19 participants completed the study; data from 1 volunteer excluded due to experimental error, leaving N=18 for analysis",
+    "population": "non-treatment-seeking daily marijuana smokers, 21-45 years old",
+    "inclusion_criteria": "smoking >=3 marijuana cigarettes 4x/week for the prior month; healthy per physical exam/ECG/blood chemistry; marijuana use confirmed by urine toxicology and self-report; no repeated use of other drugs (except nicotine/alcohol/caffeine); no current DSM-IV-TR Axis I psychopathology; females excluded if pregnant/nursing/not using contraception",
+    "demographics": {
+      "age_years": { "mean": 27, "sd": 4 },
+      "sex_m_f": "17/1",
+      "race_black_white": "10/8",
+      "years_regular_marijuana_use": { "mean": 8.9, "sd": 0.8 },
+      "days_per_week_use": { "mean": 6.3, "sd": 0.2 },
+      "usd_per_week_on_marijuana": { "mean": 50.7, "sd": 6.7 },
+      "marijuana_cigarettes_per_day": { "mean": 5.4, "sd": 1.0 },
+      "other_notes": "7 participants reported daily cigarette smoking (4.9 +/- 0.9 cigarettes/day); 10 reported drinking alcohol weekly (2.0 +/- 0.2 days/week, 2.7 +/- 0.4 drinks/occasion)",
+      "source_ref": "Table 2 (Demographic Characteristics of Study Participants)",
+      "provenance": "exact"
+    },
+    "conditions": ["0 active puffs", "2 active puffs", "4 active puffs", "6 active puffs"],
+    "condition_detail": "Every session, participants smoked 6 total puffs from 3 marijuana cigarettes (2 puffs/cigarette, 5-s inhale, 10-s hold, 40-s interpuff interval). The number of ACTIVE vs inactive cigarettes varied by condition: 0 puffs = 3 inactive cigarettes; 2 puffs = 1 active + 2 inactive; 4 puffs = 2 active + 1 inactive; 6 puffs = 3 active. Active puffs were always smoked before inactive puffs within a session. Randomized within-subject design; all participants exposed to all 4 conditions.",
+    "product": {
+      "active_thc_pct": [5.5, 6.2],
+      "inactive_thc_pct": 0.0,
+      "cigarette_weight_mg": 800,
+      "note": "Due to limited supply of the 6.2% THC stock, the first 13 participants smoked 6.2% THC active cigarettes and the final 5 smoked 5.5% THC; strength was held consistent within each participant across their sessions.",
+      "source": "National Institute on Drug Abuse (NIDA)",
+      "source_ref": "Drugs section",
+      "provenance": "exact"
+    },
+    "timepoints_min_relative_to_smoking": [-90, -60, -45, -15, 0, 15, 30, 60, 90, 120, 180, 210],
+    "measurement_schedule_source_ref": "Table 1 (Session Events)",
+    "outcome_domains": [
+      "heart rate (vitals monitor)",
+      "expired carbon monoxide (CO, Bedfont Micro Smokerlyzer)",
+      "MRF: strength, good effect, bad effect, liking, take-again (5-item VAS)",
+      "SE-VAS: 44-item mood/physical-symptom VAS incl. 'high', 'stimulated', 'I want marijuana'",
+      "task battery: repeated acquisition, divided attention (DAT), digit-symbol substitution (DSST), digit recall (DRT)",
+      "amount of marijuana smoked (pre/post cigarette weight difference)"
+    ],
+    "statistics_method": "Repeated-measures ANOVA with planned comparisons, Huynh-Feldt corrected; significance threshold p<=.05; six planned pairwise comparisons per dependent variable (0v2, 0v4, 0v6, 2v4, 2v6, 4v6 active puffs)"
+  }
+}

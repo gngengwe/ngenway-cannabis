@@ -1,0 +1,20 @@
+{
+  "study_id": "ramesh-2013",
+  "table": "Table 1. Session Events",
+  "provenance": "exact",
+  "note": "Vitals = heart rate and blood pressure. Task Battery = repeated acquisition, divided attention (DAT), digit-symbol substitution (DSST), digit recall (DRT). VAS = Subjective Effect-Visual Analog Scale (SE-VAS). CRF = Capsule Rating Form. MRF = Marijuana Rating Form.",
+  "events": [
+    { "time_min": -90, "events": "Urine toxicology screen, CO levels, breathalyzer, balance task, breakfast" },
+    { "time_min": -60, "events": "Vitals, Task battery, VAS, Cigarette break" },
+    { "time_min": -45, "events": "Capsule administration" },
+    { "time_min": -15, "events": "CRF" },
+    { "time_min": 0, "events": "Marijuana smoked" },
+    { "time_min": 15, "events": "Vitals, CO, MRF, VAS, CRF" },
+    { "time_min": 30, "events": "Vitals, CO, Task battery, MRF, VAS, CRF" },
+    { "time_min": 60, "events": "Vitals, CO, MRF, VAS, CRF, Cigarette break" },
+    { "time_min": 90, "events": "Vitals, CO, Task battery, MRF, VAS, CRF" },
+    { "time_min": 120, "events": "Vitals, CO, MRF, VAS, CRF" },
+    { "time_min": 180, "events": "Vitals, CO, Task battery, MRF, VAS, CRF" },
+    { "time_min": 210, "events": "Vitals, CO, SE-VAS" }
+  ]
+}

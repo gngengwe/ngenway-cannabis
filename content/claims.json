@@ -1,0 +1,159 @@
+[
+  {
+    "id": "ramesh-2013-hr-dose",
+    "study_id": "ramesh-2013",
+    "variable": "heart rate",
+    "unit": "bpm",
+    "relationship": "dose-dependent increase with number of active puffs",
+    "significance": {
+      "overall": "active marijuana increased heart rate at all active-puff conditions vs 0 puffs, p<=.001",
+      "pairwise": [
+        { "comparison": "0 < 2 puffs", "p": "<=.05" },
+        { "comparison": "0 < 4 puffs", "p": "<=.05" },
+        { "comparison": "0 < 6 puffs", "p": "<=.05" },
+        { "comparison": "2 < 4 puffs", "p": "<=.05" },
+        { "comparison": "2 < 6 puffs", "p": "<=.05" },
+        { "comparison": "4 < 6 puffs", "p": "<=.05" }
+      ]
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Means/SEM by condition and timepoint are shown only in Figure 4 (bar/line chart); no numeric values given in text or tables. Source image captured at data/digitized/ramesh-2013/figure4-hr-co.jpg, pending formal digitization (e.g. WebPlotDigitizer) before any magnitude is plotted.",
+    "source_ref": "Results § 'Heart rate, carbon monoxide levels, and weight of marijuana smoked' (P25); Figure 4"
+  },
+  {
+    "id": "ramesh-2013-co-dose",
+    "study_id": "ramesh-2013",
+    "variable": "expired carbon monoxide",
+    "unit": "ppm",
+    "relationship": "dose-dependent decrease with number of active puffs (higher active-puff conditions produced lower expired CO, consistent with reduced smoke inhalation)",
+    "significance": {
+      "overall": "active marijuana decreased expired CO at higher active-puff conditions, p<=.01",
+      "pairwise": [
+        { "comparison": "0 > 4 puffs", "p": "<=.05" },
+        { "comparison": "0 > 6 puffs", "p": "<=.05" },
+        { "comparison": "2 > 6 puffs", "p": "<=.01" }
+      ]
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Means/SEM shown only in Figure 4; pending digitization (data/digitized/ramesh-2013/figure4-hr-co.jpg).",
+    "source_ref": "Results § 'Heart rate, carbon monoxide levels, and weight of marijuana smoked' (P25); Figure 4",
+    "mechanism_link": "ramesh-2013-self-titration"
+  },
+  {
+    "id": "ramesh-2013-mrf-not-dose-dependent",
+    "study_id": "ramesh-2013",
+    "variable": "MRF ratings: strength, good effect, take again, liking",
+    "unit": "mm on 100mm VAS",
+    "relationship": "increased vs placebo (0 puffs) but did NOT differ systematically among the 3 active-puff conditions",
+    "significance": {
+      "overall": "all active-puff conditions > 0 puffs, p<=.001",
+      "pairwise_among_active_conditions": "not significant / not systematically different (no dose-response reported among 2, 4, 6 puff conditions)"
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "supported that active>placebo; supported (as an absence) that no dose-response exists among active conditions",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Means/SEM by condition and timepoint shown only in Figure 1; pending digitization (data/digitized/ramesh-2013/figure1-mrf.jpg).",
+    "source_ref": "Results § 'MRF' (P21); Figure 1"
+  },
+  {
+    "id": "ramesh-2013-vas-high-not-dose-dependent",
+    "study_id": "ramesh-2013",
+    "variable": "subjective 'high' and 'stimulated' (SE-VAS)",
+    "unit": "mm on 100mm VAS",
+    "relationship": "increased vs placebo (0 puffs) but did NOT differ systematically among the 3 active-puff conditions",
+    "significance": {
+      "overall": "2, 4, 6 puffs > 0 puffs for 'high' (p<=.001) and 'stimulated' (p<=.05)",
+      "pairwise_among_active_conditions": "not dose-dependent"
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "this is the study's central Dose ≠ High finding: active cannabis separates from placebo, but 2/4/6 puffs do not separate from each other",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Means/SEM by condition and timepoint shown only in Figure 2; pending digitization (data/digitized/ramesh-2013/figure2-vas.jpg). This is the primary series for Exhibit 001's 'high' track.",
+    "source_ref": "Results § 'VAS' (P22); Figure 2"
+  },
+  {
+    "id": "ramesh-2013-craving-dose",
+    "study_id": "ramesh-2013",
+    "variable": "marijuana craving ('I want marijuana', SE-VAS)",
+    "unit": "mm on 100mm VAS",
+    "relationship": "dose-dependent decrease with number of active puffs",
+    "significance": {
+      "overall": "higher active-puff conditions decreased craving vs 0 puffs, p<=.01",
+      "pairwise": [
+        { "comparison": "0 > 4 puffs", "p": "<=.01" },
+        { "comparison": "0 > 6 puffs", "p": "<=.01" },
+        { "comparison": "2 > 4 puffs", "p": "<=.05" },
+        { "comparison": "2 > 6 puffs", "p": "<=.01" }
+      ]
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Means/SEM (averaged across timepoints) shown only in Figure 3; pending digitization (data/digitized/ramesh-2013/figure3-craving.jpg).",
+    "source_ref": "Results § 'Marijuana craving' (P23); Figure 3"
+  },
+  {
+    "id": "ramesh-2013-cigarette-weight-self-titration",
+    "study_id": "ramesh-2013",
+    "variable": "amount of marijuana smoked (pre/post cigarette weight difference)",
+    "unit": "mg (implied; not stated numerically in text)",
+    "relationship": "significantly less material smoked from active cigarettes than from the position-matched inactive (0-puff) cigarette, at higher active-puff conditions",
+    "significance": {
+      "pairwise": [
+        { "comparison": "Cigarette 1: 0-puff > 2 puffs", "p": "<=.01" },
+        { "comparison": "Cigarette 1: 0-puff > 4 puffs", "p": "<=.01" },
+        { "comparison": "Cigarette 2: 0-puff > 4 puffs", "p": "<=.01" },
+        { "comparison": "Cigarette 2: 0-puff > 6 puffs", "p": "<=.01" },
+        { "comparison": "Cigarette 2: 2 puffs > 4 puffs", "p": "<=.05" },
+        { "comparison": "Cigarette 3: 0-puff > 6 puffs", "p": "<=.05" },
+        { "comparison": "Cigarette 3: 2 puffs > 6 puffs", "p": "<=.01" }
+      ]
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "supported",
+    "interpretation_source": "measured result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Values shown only in Figure 5; pending digitization (data/digitized/ramesh-2013/figure5-weight.jpg).",
+    "source_ref": "Results § P26; Figure 5",
+    "mechanism_link": "ramesh-2013-self-titration"
+  },
+  {
+    "id": "ramesh-2013-performance-effects",
+    "study_id": "ramesh-2013",
+    "variable": "psychomotor/attention/memory task performance (DSST, DRT)",
+    "unit": "task-specific (attempted entries; recall accuracy)",
+    "relationship": "modest, largely non-dose-dependent deficits: DSST attempted entries decreased at 6 puffs vs 2 and 0 puffs; DRT immediate-recall accuracy decreased at 6 puffs vs 0, 2, and 4 puffs",
+    "significance": {
+      "pairwise": [
+        { "comparison": "DSST attempted entries: 6 puffs < 2 puffs", "p": "<=.05" },
+        { "comparison": "DSST attempted entries: 6 puffs < 0 puffs", "p": "<=.05" },
+        { "comparison": "DRT immediate recall accuracy: 6 puffs < 0, 2, 4 puffs", "p": "<=.05" }
+      ]
+    },
+    "evidence_type": "controlled experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "authors summarize as 'few effects' overall on DAT/DSST/DRT; only the highest dose (6 puffs) separated from lower conditions",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "Explicitly reported in text as 'data not shown' — no figure or table exists for this measure. No digitization is possible; this remains permanently unavailable at numeric granularity from this source.",
+    "source_ref": "Results § 'Performance effects' (P24)"
+  }
+]
