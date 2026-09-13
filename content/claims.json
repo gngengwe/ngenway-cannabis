@@ -283,6 +283,82 @@
     "source_ref": "Discussion (H1-4); Supplement 2 (eResults, eTable 1, eTable 2) -- not yet retrieved"
   },
   {
+    "id": "bidwell-2020-gap-thc",
+    "study_id": "bidwell-2020",
+    "variable": "signal-chain gap: change from preuse to short-term-postuse, concentrate vs flower -- plasma THC",
+    "unit": "% difference (concentrate's change relative to flower's change)",
+    "relationship": "concentrate users' plasma THC rose ~129% more than flower users' did, from preuse to short-term-postuse",
+    "significance": {
+      "formula": "((concentrate_short_term - concentrate_preuse) - (flower_short_term - flower_preuse)) / (flower_short_term - flower_preuse) * 100",
+      "inputs": { "flower_delta": "0.14 - 0.004 = 0.136 ug/mL", "concentrate_delta": "0.32 - 0.01 = 0.31 ug/mL" },
+      "result_pct": 128.7
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "NGenWay inference",
+    "direction_provenance": "calculated",
+    "magnitude_provenance": "calculated",
+    "magnitude_note": "This percentage-gap metric is an NGenWay-calculated summary for cross-measure visual comparison (Exhibit 002's 'signal chain'), computed from Table 2's exact means. It is NOT a statistic the original authors reported or tested -- the authors' own significance test was on the raw Form main effect (see bidwell-2020-plasma-thc-concentrate-gt-flower), not on this specific ratio.",
+    "source_ref": "Calculated from Table 2 (data/raw/bidwell-2020/table2-outcomes.json)"
+  },
+  {
+    "id": "bidwell-2020-gap-intoxication",
+    "study_id": "bidwell-2020",
+    "variable": "signal-chain gap: change from preuse to short-term-postuse, concentrate vs flower -- self-reported intoxication",
+    "unit": "% difference (concentrate's change relative to flower's change)",
+    "relationship": "despite the ~129% larger THC rise, concentrate users' intoxication rose about 5% LESS than flower users' -- the gap nearly closes at this step of the chain",
+    "significance": {
+      "formula": "((concentrate_short_term - concentrate_preuse) - (flower_short_term - flower_preuse)) / (flower_short_term - flower_preuse) * 100",
+      "inputs": { "flower_delta": "2.40 - 0.08 = 2.32", "concentrate_delta": "2.35 - 0.14 = 2.21" },
+      "result_pct": -4.7
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "NGenWay inference",
+    "direction_provenance": "calculated",
+    "magnitude_provenance": "calculated",
+    "magnitude_note": "Same caveat as bidwell-2020-gap-thc: an NGenWay-calculated cross-measure metric, not an author-reported or -tested statistic. Consistent with bidwell-2020-intoxication-not-different-by-form's non-significant Form main effect (p=.11).",
+    "source_ref": "Calculated from Table 2 (data/raw/bidwell-2020/table2-outcomes.json)"
+  },
+  {
+    "id": "bidwell-2020-gap-verbal-recall",
+    "study_id": "bidwell-2020",
+    "variable": "signal-chain gap: change from preuse to short-term-postuse, concentrate vs flower -- delayed verbal recall errors",
+    "unit": "% difference (concentrate's change relative to flower's change)",
+    "relationship": "concentrate users' recall errors rose about 62% LESS than flower users' -- at this step concentrate users look LESS impaired than flower users, the opposite direction from the THC-exposure gap",
+    "significance": {
+      "formula": "((concentrate_short_term - concentrate_preuse) - (flower_short_term - flower_preuse)) / (flower_short_term - flower_preuse) * 100",
+      "inputs": { "flower_delta": "2.21 - 0.65 = 1.56", "concentrate_delta": "1.50 - 0.90 = 0.60" },
+      "result_pct": -61.5
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "The raw Form main effect on verbal recall errors was not significant (p=.65, see bidwell-2020-verbal-memory-impaired-regardless-of-form), so this specific 62% gap should not be read as a confirmed group difference -- it is a descriptive contrast between two point estimates, not a tested effect. Flagged explicitly as a counterintuitive data point (concentrate users' errors rose LESS) worth surfacing, not smoothing over, per the Deep Research brief's instruction to treat contradiction as a feature. The Figure 3 caption independently notes 'a marginal effect suggesting acute impairment was more pronounced in the flower group', which points the same direction.",
+    "interpretation_source": "NGenWay inference",
+    "direction_provenance": "calculated",
+    "magnitude_provenance": "calculated",
+    "source_ref": "Calculated from Table 2 (data/raw/bidwell-2020/table2-outcomes.json); cf. Figure 3 caption"
+  },
+  {
+    "id": "bidwell-2020-gap-balance",
+    "study_id": "bidwell-2020",
+    "variable": "signal-chain gap: change from preuse to short-term-postuse, concentrate vs flower -- balance sway (eyes closed)",
+    "unit": "% difference (concentrate's change relative to flower's change)",
+    "relationship": "concentrate users' balance sway increased about 50% LESS than flower users' -- again the gap compresses (and reverses direction relative to the THC-exposure gap)",
+    "significance": {
+      "formula": "((concentrate_short_term - concentrate_preuse) - (flower_short_term - flower_preuse)) / (flower_short_term - flower_preuse) * 100",
+      "inputs": { "flower_delta": "0.73 - 0.63 = 0.10", "concentrate_delta": "0.69 - 0.64 = 0.05" },
+      "result_pct": -50.0
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "The raw Form main effect on eyes-closed sway was not significant (p=.85, see bidwell-2020-balance-impaired-regardless-of-form), so this 50% gap is a descriptive contrast between two small point estimates (0.10 vs 0.05 sway-index units), not a tested effect -- treat as illustrative of the pattern, not as proof concentrate users have meaningfully better balance outcomes.",
+    "interpretation_source": "NGenWay inference",
+    "direction_provenance": "calculated",
+    "magnitude_provenance": "calculated",
+    "source_ref": "Calculated from Table 2 (data/raw/bidwell-2020/table2-outcomes.json)"
+  },
+  {
     "id": "mccartney-2021-biomarkers-weak-in-occasional-users",
     "study_id": "mccartney-2021",
     "variable": "blood/oral-fluid THC biomarkers and subjective intoxication vs driving/cognitive impairment (Other/occasional cannabis users, inhaled route)",

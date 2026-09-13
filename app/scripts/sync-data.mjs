@@ -18,6 +18,7 @@ const files = [
   "data/digitized/ramesh-2013/figure2-vas.estimated.json",
   "data/digitized/ramesh-2013/figure3-craving.estimated.json",
   "data/digitized/ramesh-2013/figure4-hr-co.estimated.json",
+  "data/raw/bidwell-2020/table2-outcomes.json",
 ];
 
 for (const relPath of files) {

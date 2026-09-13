@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type {
+  BidwellTable2,
   Claim,
   Figure3CravingEstimate,
   Figure4HrCoEstimate,
@@ -16,6 +17,9 @@ export interface EvidenceData {
     vas: Figure2VasEstimate;
     craving: Figure3CravingEstimate;
     hrCo: Figure4HrCoEstimate;
+  };
+  bidwell2020: {
+    table2: BidwellTable2;
   };
 }
 
@@ -37,7 +41,7 @@ let cached: EvidenceData | null = null;
 async function loadEvidenceData(): Promise<EvidenceData> {
   if (cached) return cached;
 
-  const [studies, claims, mechanisms, vas, craving, hrCo] = await Promise.all([
+  const [studies, claims, mechanisms, vas, craving, hrCo, bidwellTable2] = await Promise.all([
     fetchJson<StudiesById>("/data/sources/studies.json"),
     fetchJson<Claim[]>("/data/content/claims.json"),
     fetchJson<Mechanism[]>("/data/content/mechanisms.json"),
@@ -46,9 +50,16 @@ async function loadEvidenceData(): Promise<EvidenceData> {
       "/data/data/digitized/ramesh-2013/figure3-craving.estimated.json",
     ),
     fetchJson<Figure4HrCoEstimate>("/data/data/digitized/ramesh-2013/figure4-hr-co.estimated.json"),
+    fetchJson<BidwellTable2>("/data/data/raw/bidwell-2020/table2-outcomes.json"),
   ]);
 
-  cached = { studies, claims, mechanisms, ramesh2013: { vas, craving, hrCo } };
+  cached = {
+    studies,
+    claims,
+    mechanisms,
+    ramesh2013: { vas, craving, hrCo },
+    bidwell2020: { table2: bidwellTable2 },
+  };
   return cached;
 }
 

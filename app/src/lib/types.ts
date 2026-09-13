@@ -128,3 +128,52 @@ export const DOSE_LABELS: Record<DoseCondition, string> = {
 
 export const TIME_POINTS = [15, 30, 60, 90, 120, 180, 210] as const;
 export type TimePoint = (typeof TIME_POINTS)[number];
+
+// --- Bidwell 2020 exact Table 2 data ---
+
+export type CannabisForm = "flower" | "concentrate";
+export const CANNABIS_FORMS: CannabisForm[] = ["flower", "concentrate"];
+export const FORM_LABELS: Record<CannabisForm, string> = {
+  flower: "Flower (16–24% THC)",
+  concentrate: "Concentrate (70–90% THC)",
+};
+
+export type BidwellTimepoint = "preuse" | "short_term_postuse" | "1h_postuse";
+export const BIDWELL_TIMEPOINTS: BidwellTimepoint[] = ["preuse", "short_term_postuse", "1h_postuse"];
+export const BIDWELL_TIMEPOINT_LABELS: Record<BidwellTimepoint, string> = {
+  preuse: "Preuse",
+  short_term_postuse: "Short-term postuse",
+  "1h_postuse": "1h postuse",
+};
+
+export interface BidwellStatEntry {
+  F: string;
+  p: string;
+}
+
+export interface BidwellMeasure {
+  domain: string;
+  measure: string;
+  unit: string;
+  means_se: Record<CannabisForm, Record<BidwellTimepoint, [number, number]>>;
+  stats: {
+    time_linear: BidwellStatEntry;
+    time_quadratic: BidwellStatEntry;
+    form: BidwellStatEntry;
+    form_x_linear: BidwellStatEntry;
+    form_x_quadratic: BidwellStatEntry;
+  };
+  note?: string;
+}
+
+export interface BidwellTable2 {
+  study_id: "bidwell-2020";
+  measures: BidwellMeasure[];
+}
+
+/** Matches this project's stated convention (p <= .05 is significant; see Ramesh 2013's
+ * own "Data Analysis" section) rather than re-deriving a threshold. */
+export function isFormEffectSignificant(stat: BidwellStatEntry): boolean {
+  const num = Number(stat.p.replace("<", "").trim());
+  return !Number.isNaN(num) && num <= 0.05;
+}

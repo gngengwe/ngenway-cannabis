@@ -17,6 +17,11 @@
   --dose-4: #1c5cab; /* step 550 */
   --dose-6: #0d366b; /* step 700 */
 
+  /* Flower vs Concentrate is a nominal (identity) comparison, not ordered -- fixed
+     categorical slots 1 & 2, in Table 2's own column order (flower first). */
+  --form-flower: #2a78d6; /* categorical slot 1: blue */
+  --form-concentrate: #eb6834; /* categorical slot 2: orange */
+
   --status-warning: #fab219;
   --status-good: #0ca30c;
 }
@@ -38,6 +43,9 @@
     --dose-2: #6da7ec; /* step 300 */
     --dose-4: #2a78d6; /* step 450 */
     --dose-6: #184f95; /* step 600 */
+
+    --form-flower: #3987e5;
+    --form-concentrate: #d95926;
   }
 }
 
