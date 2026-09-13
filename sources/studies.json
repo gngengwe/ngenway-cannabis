@@ -105,5 +105,44 @@
     "data_ambiguity_flags": [
       "Abstract text states plasma THC 'were 0.32 (SE = 0.43) ug/mL in concentrate users ... and 0.14 (SE = 0.16) ug/mL in flower users.' The Discussion section restates the identical numbers as 'mean [SD] of 0.32 [0.43]' and 'mean [SD] of 0.14 [0.16]' -- i.e. the same variability figures are labeled SE in the Abstract and SD in the Discussion. Table 2's model-based SEs for short-term THC are much smaller (flower 0.03, concentrate 0.02), consistent with the Discussion's SD labeling being the more plausible reading (population SD, not a model SE) but this project does not resolve the discrepancy -- both labels are preserved verbatim in content/claims.json rather than silently picked."
     ]
+  },
+  "mccartney-2021": {
+    "id": "mccartney-2021",
+    "citation": {
+      "authors": "McCartney D, Arkell TR, Irwin C, Kevin RC, McGregor IS",
+      "title": "Are blood and oral fluid Δ9-tetrahydrocannabinol (THC) and metabolite concentrations related to impairment? A meta-regression analysis",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2022,
+      "year_note": "Print/indexed year 2022 (vol 134); published online 9 November 2021 (accepted 5 November 2021) -- cited as 'McCartney 2021' elsewhere in this project's earlier notes because of the online-first date; canonical year field here is 2022 to match indexed publication.",
+      "volume": 134,
+      "pages": "104433",
+      "doi": "10.1016/j.neubiorev.2021.11.004",
+      "pmid": "34767878",
+      "pmcid": null,
+      "url": "https://doi.org/10.1016/j.neubiorev.2021.11.004",
+      "open_access_url": "https://research-repository.griffith.edu.au/handle/10072/410768",
+      "license": "CC BY-NC-ND 4.0",
+      "retrieved": "2026-09-13",
+      "retrieval_method": "Not in PMC (isOpenAccess=N, inPMC=N per Europe PMC). Unpaywall identified a legitimate green-OA Version of Record deposited in the Griffith University institutional repository (handle 10072/410768) under CC BY-NC-ND. Retrieved via that repository's DSpace REST API: both the extracted plain text (source-fulltext.txt) and the original published PDF (source-published.pdf) were downloaded directly from Griffith's bitstream endpoints. PubMed/ScienceDirect direct access was blocked (proof-of-work JS challenge / 403); abstract cross-verified byte-for-byte against Europe PMC's structured abstractText field before use."
+    },
+    "design": "meta-analysis",
+    "design_detail": "Meta-regression of effect estimates (Hedges' g) drawn from a prior systematic review (McCartney et al. 2021b) of controlled, placebo-controlled acute-dosing THC studies (single acute THC dose, <=12h follow-up, simulated/on-road driving or driving-related cognitive skill outcome). This paper adds biomarker/subjective-intoxication correlation analyses on top of that existing outcome dataset, split by cannabis use behavior (Regular = weekly+ users vs Other = mostly occasional users) and route (inhaled vs oral/ingested).",
+    "n_publications": 28,
+    "n_participants": 824,
+    "participants_male_pct": 71,
+    "n_trials": 57,
+    "n_outcomes": 822,
+    "quality_assessment": { "measure": "Rosendal score", "mean_pct": 70, "sd_pct": 10, "range_pct": [53, 93] },
+    "population": "pooled participants from 28 primary studies of acute THC dosing, stratified into 'Regular' (weekly-or-more-often) and 'Other' (mostly occasional) cannabis users",
+    "conditions": ["Other users, inhaled THC", "Other users, oral/ingested THC", "Regular users, inhaled THC"],
+    "condition_detail": "No eligible studies measured oral (ingested) THC effects in Regular users, and no eligible studies measured oral fluid THC concentrations after ingestion (in either group) -- these cells are structurally empty in the underlying data, not just unreported.",
+    "outcome_domains": [
+      "blood THC, 11-OH-THC, 11-COOH-THC concentrations",
+      "oral fluid THC concentration",
+      "subjective intoxication rating",
+      "driving/driving-related cognitive performance (Hedges' g effect estimates across 9 performance domains: divided attention, tracking, information processing, executive function/conflict control, reaction time, motor function, perception, sustained attention, working memory; plus driving-specific SDLP)"
+    ],
+    "statistics_method": "Multi-level meta-regression (biomarker/intoxication concentration as moderator of Hedges' g impairment effect size), separately per cannabis-use-behavior x route x biomarker cell; correlation magnitude R interpreted as very weak (<0.2), weak (0.2-0.4), moderate (0.4-0.6), strong (0.6-0.8), very strong (>0.8) per Swinscow 1997. Sensitivity analyses reported in a not-yet-retrieved supplementary file.",
+    "data_completeness_note": "Table 3 (the full per-cell meta-regression coefficient table with heterogeneity statistics) was present in the extracted plain text but badly garbled by PDF-to-text OCR (column headers and Greek-letter variance symbols interleaved unreadably). This project did NOT attempt to hand-parse that garbled table -- all claims below are drawn only from the cleanly-stated prose R-values (with 95% CIs) in Results 3.2.1/3.2.2 and the Abstract, cross-checked against each other. The archived source-published.pdf (data/raw/mccartney-2021/) should be used for a proper Table 3 transcription if per-domain regression coefficients are needed later."
   }
 }

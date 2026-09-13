@@ -281,5 +281,66 @@
     "magnitude_provenance": "unavailable",
     "magnitude_note": "This is the exact evidentiary basis for the product's rule against fabricating separate 16%-vs-24%-flower or 70%-vs-90%-concentrate plasma values: the source itself only reports non-significance, not the subgroup means.",
     "source_ref": "Discussion (H1-4); Supplement 2 (eResults, eTable 1, eTable 2) -- not yet retrieved"
+  },
+  {
+    "id": "mccartney-2021-biomarkers-weak-in-occasional-users",
+    "study_id": "mccartney-2021",
+    "variable": "blood/oral-fluid THC biomarkers and subjective intoxication vs driving/cognitive impairment (Other/occasional cannabis users, inhaled route)",
+    "unit": "correlation R (meta-regression), with 95% CI",
+    "relationship": "higher biomarker concentrations and subjective intoxication ARE significantly associated with greater impairment in occasional users after inhaling THC, but the relationships are only very-weak to moderate in strength -- direction is as expected, magnitude is not clinically reassuring as a threshold",
+    "significance": {
+      "values": [
+        { "biomarker": "blood THC (post-inhalation)", "R": -0.10, "ci95": [-0.19, -0.01], "strength_band": "very weak" },
+        { "biomarker": "blood 11-OH-THC (post-inhalation)", "R": -0.24, "ci95": [-0.38, -0.08], "strength_band": "weak" },
+        { "biomarker": "blood 11-COOH-THC (post-inhalation)", "R": -0.43, "ci95": [-0.58, -0.25], "strength_band": "moderate -- the strongest relationship found in the whole analysis, from a non-intoxicating metabolite" },
+        { "biomarker": "oral fluid THC (post-inhalation)", "R": -0.36, "ci95": [-0.59, -0.08], "strength_band": "weak" },
+        { "biomarker": "subjective intoxication (post-inhalation/ingestion combined)", "R": -0.29, "ci95": [-0.36, -0.22], "strength_band": "weak" }
+      ],
+      "note": "Each analysis (except blood THC post-inhalation) carried a significant amount of residual heterogeneity, and the unmoderated versions of the 11-OH-THC/11-COOH-THC analyses showed high homogeneity -- making it hard to isolate the influence of any one covariate. Authors flag this as a genuine limitation on the analyses' robustness, not just a caveat."
+    },
+    "evidence_type": "meta-analysis",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "magnitude_note": "R-values and CIs taken verbatim from Results 3.2.1 prose (cross-checked against the Abstract's restatement of the same numbers). The full per-domain regression coefficient table (Table 3) was not reliably extractable from OCR'd text -- see studies.json data_completeness_note.",
+    "source_ref": "Results 3.2.1 'Other Cannabis users'; Abstract"
+  },
+  {
+    "id": "mccartney-2021-no-biomarker-relationship-in-regular-users",
+    "study_id": "mccartney-2021",
+    "variable": "blood THC biomarkers and subjective intoxication vs driving/cognitive impairment (Regular/weekly-or-more cannabis users, inhaled route)",
+    "unit": "correlation R (meta-regression), with 95% CI",
+    "relationship": "NO significant relationship between any THC biomarker (or subjective intoxication) and impairment in regular cannabis users -- this is the study's central 'Blood THC =/= Cannabis BAC' finding, since it means the same blood concentration that predicts (weakly) in occasional users predicts nothing in regular users",
+    "significance": {
+      "values": [
+        { "biomarker": "blood THC (post-inhalation)", "R": 0.09, "ci95": [-0.23, 0.39], "significant": false },
+        { "biomarker": "blood 11-OH-THC (post-inhalation)", "R": 0.0, "ci95": [-0.33, 0.33], "significant": false, "note": "reported in source as '<0.01'" },
+        { "biomarker": "blood 11-COOH-THC (post-inhalation)", "R": -0.05, "ci95": [-0.37, 0.28], "significant": false },
+        { "biomarker": "subjective intoxication", "R": -0.02, "ci95": [-0.29, 0.26], "significant": false }
+      ],
+      "note": "p's>0.10 for all. Authors explicitly caveat that these regular-user analyses are 'less robust' than the occasional-user analyses (smaller samples; the unmoderated versions showed high homogeneity, again limiting ability to isolate covariate influence). No eligible studies measured oral-route THC or oral-fluid THC in regular users at all -- those cells are structurally empty, not non-significant."
+    },
+    "evidence_type": "meta-analysis",
+    "claim_status": "mixed",
+    "claim_status_note": "The null result itself is supported by the reported statistics, but authors explicitly flag it as resting on a less robust evidence base than the occasional-user findings -- 'caution is advised.' Treat 'no relationship' as 'no relationship detected with the available data,' not as proof of true independence.",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "source_ref": "Results 3.2.2 'Regular Cannabis users'; Abstract; Discussion"
+  },
+  {
+    "id": "mccartney-2021-corpus-scale",
+    "study_id": "mccartney-2021",
+    "variable": "scale/composition of the underlying evidence base",
+    "unit": "counts",
+    "relationship": "28 publications, 824 participants (71% male), 57 trials, 822 eligible outcome instances feeding the meta-regression; mean study-quality (Rosendal) score 70% (SD 10%, range 53-93%)",
+    "evidence_type": "meta-analysis",
+    "claim_status": "supported",
+    "interpretation_source": "measured result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "source_ref": "Results 3.1 'Overview of included studies and study quality'; Abstract",
+    "magnitude_note": "Useful for an exhibit's 'how much evidence backs this' framing -- distinguishes this from a single-study finding."
   }
 ]

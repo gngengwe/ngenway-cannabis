@@ -61,5 +61,23 @@
     "supporting_claims": ["bidwell-2020-intoxication-not-different-by-form"],
     "study_id": "bidwell-2020",
     "source_ref": "Discussion (H1-4), paragraph 3"
+  },
+  {
+    "id": "mccartney-2021-tolerance-in-regular-users-hypothesis",
+    "name": "Regular users are less behaviorally sensitive to THC, decoupling biomarkers from impairment",
+    "description": "Proposed explanation for why biomarker-impairment correlations existed (weakly) in occasional users but vanished entirely in regular users: regular cannabis users may be less sensitive to THC's impairing effects (consistent with the prior McCartney et al. 2021b review and other cited work), so a given blood concentration produces less consistent behavioral impairment in them, weakening the very relationship that per se legal limits assume. Authors also separately flag reduced statistical robustness (smaller/more homogeneous samples) as a competing, non-substantive explanation for the null result -- both are presented as possibilities, not settled.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["mccartney-2021-no-biomarker-relationship-in-regular-users"],
+    "study_id": "mccartney-2021",
+    "source_ref": "Discussion, paragraphs on regular vs occasional users"
+  },
+  {
+    "id": "mccartney-2021-metabolite-kinetics-hypothesis",
+    "name": "11-COOH-THC's slow decline may coincidentally track impairment's time course better than THC itself",
+    "description": "The single strongest biomarker-impairment relationship found (R=-0.43, inhaled, occasional users) was for 11-COOH-THC -- a non-intoxicating, inactive metabolite. Authors propose this is because blood THC and 11-OH-THC peak and decline rapidly after inhalation while 11-COOH-THC declines gradually, and that gradual decline may better match impairment's actual time course (~3-10h) even though 11-COOH-THC itself has no pharmacological activity. Explicitly flagged as unexpected ('unexpected given that 11-COOH-THC is non-intoxicating') and interpretive, not a demonstrated causal mechanism -- and the authors separately warn that 11-COOH-THC persists in blood for >7 days, well beyond the impairment window, meaning it would perform badly as a practical impairment marker despite this correlation.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["mccartney-2021-biomarkers-weak-in-occasional-users"],
+    "study_id": "mccartney-2021",
+    "source_ref": "Discussion, paragraph on 11-COOH-THC"
   }
 ]

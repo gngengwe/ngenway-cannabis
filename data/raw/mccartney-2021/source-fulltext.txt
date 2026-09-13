@@ -1,0 +1,573 @@
+Neuroscience and Biobehavioral Reviews xxx (xxxx) xxx
+Contents lists available at ScienceDirect 
+Neuroscience and Biobehavioral Reviews 
+journal homepage: www.elsevier.com/locate/neubiorev 
+Are blood and oral fluid Δ9-tetrahydrocannabinol (THC) and metabolite 
+concentrations related to impairment? A meta-regression analysis 
+Danielle McCartney a,b,c,*, Thomas R. Arkell d, Christopher Irwin e, Richard C. Kevin a,b,c, 
+Iain S. McGregor a,b,c 
+a The University of Sydney, Lambert Initiative for Cannabinoid Therapeutics, Sydney, New South Wales, Australia 
+b The University of Sydney, Brain and Mind Centre, Sydney, New South Wales, Australia 
+c The University of Sydney, Faculty of Science, School of Psychology, Sydney, New South Wales, Australia 
+d Centre for Human Psychopharmacology, Swinburne University of Technology, Melbourne, Victoria, Australia 
+e Menzies Health Institute Queensland and School of Health Sciences and Social Work, Griffith University, Gold Coast, Queensland, Australia   
+A R T I C L E  I N F O   A B S T R A C T   
+Keywords: Blood and oral fluid Δ9-tetrahydrocannabinol (THC) concentrations are often used to identify cannabis-impaired 
+Cannabis drivers. We used meta-analytic techniques to characterise the relationships between biomarkers of cannabis use, 
+Driving subjective intoxication, and impairment of driving and driving-related cognitive skills. Twenty-eight publications 
+Drug driving and 822 driving-related outcomes were reviewed. Each outcome was measured in concert with one or more 
+Per selimits 
+Biomarker relationships biomarkers of cannabis/THC use and/or subjective intoxication. Higher blood THC and 11− OH-THC concen-
+Impairment trations, oral fluid THC concentrations and subjective ratings of intoxication were associated with greater 
+Cognition impairment in ‘other’ (mostly occasional) cannabis users (p’s<0.05). Blood 11− COOH-THC concentrations were 
+Cannabinoid associated with impairment after inhaling, but not orally ingesting, cannabis/THC. However, these ‘bio-
+THC marker–performance’ relationships (R) were only very weak (blood THCpost-ingestion: -0.08; blood THCpost-inhalation: 
+-0.10; blood 11− OH-THCpost-ingestion: -0.13), weak (blood 11− OH-THCpost-inhalation: -0.24; oral fluid THCpost- 
+inhalation: -0.36; subjective intoxication: -0.29) or moderate (blood 11− COOH-THCpost-inhalation: -0.43) in strength. 
+No significant biomarker-performance relationships were observed in ‘regular’ (weekly or more often) cannabis 
+users (p’s>0.10), although the analyses were less robust. Blood and oral fluid THC concentrations are relatively 
+poor indicators of cannabis/THC-induced impairment.   
+1. Introduction an offence to drive with any amount of THC in a biological specimen. In 
+some instances, prohibition also extends to THC-metabolites (e.g., 
+The number of individuals performing safety-sensitive tasks such as 11− OH-THC, 11− COOH-THC). In contrast, per se methods prohibit 
+driving (e.g., motor vehicles, heavy machinery) after recent cannabis driving at or above a predefined concentration, analogous to a legal 
+use is likely to increase as legislation restricting cannabis use is relaxed blood alcohol concentration (BAC) limit. 
+(Chow et al., 2019). Accurate methods of identifying cannabis-impaired Seven US states currently use per se methods to identify and prose-
+drivers in the public domain and workplace are therefore of growing cute cannabis-impaired drivers (Chow et al., 2019; Wong et al., 2014) 
+importance. with “legal limits” for whole blood THC, 11− OH-THC and 
+The different methods used to identify cannabis-impaired drivers can 11− COOH-THC ranging between 1–5 ng⋅mL− 1 (Arkell et al., 2020a). Per 
+be broadly categorised as: effect-based, zero-tolerance and per se. Effect- se limits are also enforced in several European countries (Chow et al., 
+based methods test for functional impairment (e.g., using field sobriety 2019), including Norway which has a three-tiered sanction system with 
+tests), while zero-tolerance and per se methods test for Δ9-tetrahydro- limits of 1.3, 3 and 9 ng⋅mL− 1 (Pasnin and Gjerde, 2021). Some juris-
+cannabinol (THC: the main intoxicating component of cannabis dictions (e.g., Australia) and workplaces use zero-tolerance methods but 
+(Banister et al., 2019)) and/or THC metabolites in biological specimens enact per se limits in practice through the use of point-of-collection 
+(typically blood or oral fluid). Under the zero-tolerance approach, it is testing devices (e.g., Securetec DrugWipe® 5S) that have elevated 
+* Corresponding author at: Lambert Initiative for Cannabinoid Therapeutics, Brain and Mind Centre, University of Sydney, Camperdown, NSW, 2050, Australia. 
+E-mail address: danielle.mccartney@sydney.edu.au (D. McCartney).  
+https://doi.org/10.1016/j.neubiorev.2021.11.004 
+Received 6 September 2021; Received in revised form 29 October 2021; Accepted 5 November 2021   
+Available online 9 November 2021
+0149-7634/© 2021 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Please cite this article as: Danielle McCartney, Neuroscience and Biobehavioral Reviews, https://doi.org/10.1016/j.neubiorev.2021.11.004
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+limits of detection (e.g., ~10 ng⋅mL− 1 of THC in oral fluid (Arkell et al., 2.2. Eligibility criteria 
+2020a; McCartney et al., 2021a). 
+The validity of the per se approach is contingent upon a strong and Studies that measured either simulated or on-road driving perfor-
+meaningful relationship between the relevant biomarker(s) and mance, or a discrete cognitive skill related to driving, ≤12 h following a 
+‘impairment’. Such a relationship is readily seen with BAC, which has single, acute dose of THC in a placebo-controlled experimental trial were 
+been shown to correlate well with driving performance (indexed by eligible for inclusion in the previous review (McCartney et al., 2021b). 
+standard deviation of lateral position [SDLP], a well-established marker For the current review, studies also had to have: (1) been eligible for 
+of impaired driving (Verster and Roth, 2011; Irwin et al., 2017) and inclusion in the quantitative synthesis of McCartney et al., (2021b) (see 
+relative crash risk (Blomberg et al., 2005). However, the relationships Sect. 2.6.3 of McCartney et al., (2021b)); (2) administered THC via 
+between different THC-related biomarkers and measures of driving inhalation or oral ingestion; (3) measured performance on an eligible 
+performance (or driving-related cognitive skills, e.g., tracking, reaction domain (see Sect. 2.3 ‘Performance Outcomes’); and (4) measured and 
+time, divided attention, information processing) appear more complex reported subjective intoxication and/or one or more THC-related bio-
+with higher blood THC, 11− OH-THC and 11− COOH-THC concentra- markers at an appropriate time relative to the performance test(s) (see 
+tions and oral fluid THC concentrations associated with increased Sect. 2.5 ‘Data Extraction’). 
+impairment in some, but not all, studies (Arkell et al., 2020a; Ramaekers Studies were excluded if: (1) THC was administered in combination 
+et al., 2006; Vandrey et al., 2017; Schlienz et al., 2020). Further research with another treatment; (2) more than one dose of THC was adminis-
+characterising these ‘biomarker–performance’ relationships is therefore tered prior to the performance test(s); (3) either the dose of THC 
+required. Notably, a large-scale analysis combining data from studies administered or length of time between THC administration and the 
+employing different research methods (e.g., THC doses) should provide performance test(s) was not reported; (4) results were reported in 
+useful insights since per se limits are enforceable regardless of the cir- another included paper; or (5) performance data were not adequately 
+cumstances surrounding a positive test. reported as described elsewhere (McCartney et al., 2021b). 
+Here, we used meta-analytic techniques to better characterise the If a study contained multiple “intervention-arms”, where more than 
+relationships between THC-related biomarkers and impairment of one was eligible for inclusion, the separate “arms” were treated as 
+driving and driving-related cognitive skills. The relationship between discrete studies, termed trials. 
+subjective ratings of intoxication and impairment was also examined as 
+individuals using cannabis should self-evaluate their fitness to drive 2.3. Performance outcomes 
+regardless of the regulatory approach being applied. The strength of this 
+relationship might better inform public health advice on the optimal The following driving-related cognitive “skills” (hereafter termed 
+strategies individuals should use to determine fitness to drive (e.g., Performance Domains) were included in the previous review (McCartney 
+subjective feelings vs objective measures of impairment). et al., 2021b): (1) Divided Attention; (2) Tracking Performance; (3) In-
+formation Processing; (4) Executive Function (subcategorised as Con-
+2. Methods flict Control and Fluid Intelligence); (5) Reaction Time; (6) Motor 
+Function (subcategorised as Fine and Gross Motor Function); (7) 
+Studies investigating the acute effects of cannabis/THC (hereafter Perception (subcategorised as Sensory Discrimination and Time 
+termed THC) on driving performance and driving-related cognitive skills Perception); (8) Sustained Attention; and (9) Working Memory. The 
+were collated in a recent systematic review (McCartney et al., 2021b). following measures of driving performance were also included: Lateral 
+The review used meta-analytic techniques to: (1) determine which as- Control, SDLP (Only), Speed, Speed Variability, Car Following (CF) 
+pects of driving and cognitive performance were susceptible to impair- Headway, CF Headway Variability, Reaction Time and Other (e.g., 
+ment; and (2) model the relationship between ‘impairment’ (quantified scanning frequency). 
+as Hedges’ g) and contextual factors (e.g., type of “skill” assessed, par- However, as McCartney et al. (2021b) were unable to determine the 
+ticipants’ cannabis use behaviour, THC dose, route of administration, effect of THC on Gross Motor Function and Other (driving) and found no 
+post-treatment time interval). The same set of driving and cognitive significant effect of THC on Sensory Discrimination, Time Perception, 
+performance data (i.e., Hedges’ g effect estimates) were used in the Speed, Speed Variability, CF Headway or CF Headway Variability, these 
+current review. However, some additional eligibility criteria were domains were omitted from the current review. Performance Domains 
+applied to investigate the relationships between THC-related bio- that were not included in the previous (separate) meta-regression ana-
+markers, subjective intoxication, and impairment; the literature search lyses of oral and inhaled THC’s effects in ‘Other Cannabis Users’ (see 
+was also updated to capture recent publications. Hence, the methods Sect. 2.5 ‘Data Extraction’) (e.g., as there was limited data) were also 
+used to derive these data are only briefly described here (see McCartney excluded as these models were used in the current investigation (see 
+et al., (2021b) for full details). The current analyses were not conducted Sect. 2.6.2 ‘Meta-Regression Analysis’). That is, the Fluid Intelligence, 
+in the previous review as they were of limited relevance to its primary Lateral Control, SDLP (Only) and Reaction Time (driving) domains were 
+aim. omitted when oral THC was administered to Other Cannabis Users and 
+the Fine Motor Function, Fluid Intelligence, Lateral Control and Reac-
+2.1. Literature search tion Time (driving) domains were omitted when inhaled THC was 
+administered to Other Cannabis Users. As the previous review was un-
+Studies were identified by searching the online databases Web of able to model THC’s effects in ‘Regular Cannabis Users’ (see Sect. 2.5 
+Science (Thomas Reuters) and Scopus from the year 2000 until April ‘Data Extraction’), all Performance Domains (except those where the 
+2020 using the Boolean expression: (cogniti* OR driving OR drive OR effect of THC was unknown or non-significant) were accepted for this 
+“processing speed” OR “reaction time” OR vigilance OR “executive population and analysed in an exploratory fashion without controlling 
+function” OR memory OR psychomotor OR tracking OR perception) for the influence of Performance Domain (see Sect. 2.6.2 ‘Meta-Re-
+AND (cannabinoid* OR cannabis OR marijuana OR tetrahydrocannab- gression Analysis’). 
+inol OR THC OR nabiximols OR Sativex OR dronabinol OR marinol OR Each driving-related cognitive performance test was reviewed and 
+namisol) as described elsewhere (McCartney et al., 2021b). The litera- categorised into a Performance Domain as described elsewhere 
+ture search from the previous review (McCartney et al., 2021b) was (McCartney et al., 2021b). 
+updated on the 18th of October 2021. 
+2
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+2.4. Quality assessment effect) (Assink and Wibbelink, 2016). We added random effects to ac-
+count for dependency among effect estimates derived from the same 
+The methodological quality of included studies was assessed using studies and trials. The four sources of variance modelled were therefore: 
+the Rosendal scale (see Table II in Van Rosendal et al. (2010)) as (1) the sampling variance for the observed effect estimates; (2) the 
+described elsewhere (McCartney et al., 2021b). variance between effect estimates derived from the same studies; (3) the 
+variance between effect estimates derived from different trials in the 
+2.5. Data extraction same studies; and (4) the variance between studies. 
+Only one covariate (i.e., either subjective intoxication or a THC- 
+Data were extracted as described elsewhere (McCartney et al., related biomarker) was included in each meta-regression model. How-
+2021b). The following methods relevant to the current review should ever, effect estimates were manually adjusted (prior to analysis) to 
+also be noted: control for the influence of Performance Domain; that is, domain- 
+Eligible studies must have measured subjective intoxication, or a specific differences in sensitivity to THC’s effects. This was done by 
+THC-related biomarker at an ‘appropriate’ time relative to the perfor- subtracting the relevant meta-regression coefficient from each effect 
+mance test(s). Measures were considered appropriate if: (1) the test (or estimate (e.g., the Reaction Time coefficient was subtracted from effect 
+cognitive battery) took ≤10 min to complete and the measure(s) was estimates obtained on Reaction Time performance tests) and adding the 
+taken within 20 min of the start time (or, within 10 min if the test was average meta-regression coefficient to each value1 ; the adjusted effect 
+performed <1 h post-treatment and THC was inhaled); or (2) if the test estimates therefore represent a standardised performance domain with 
+(or cognitive battery) took >10 min to complete and the measure(s) was average sensitivity to THC’s effects. All coefficients were obtained from 
+taken within 20 min of the mid-way point (or, within 10 min if the test the previous (separate) meta-regression analyses of oral and inhaled 
+was performed <1 h post-treatment and THC was inhaled) or, within 20 THC’s effects in Other Cannabis Users (see Table 8 of McCartney et al., 
+min of the test starting and finishing (values were then averaged over (2021b)). The previous models were used (in favour of new models) 
+time). Tests were assumed to last ≤10 min unless otherwise stated. because these were developed using a larger data set than was available 
+Acceptable measures of ‘subjective intoxication’ included ratings of for the current review. As the previous review was unable to model 
+‘intoxication’, ‘strength of drug effect’ (or similar) and ‘high’; preferenced THC’s effects in Regular Cannabis Users, the data for this population 
+in this order (if more than one scale was used). All mean scores were were analysed in an exploratory fashion without controlling for Per-
+converted to a 0–100 scale. formance Domain. This precluded a ‘combined analysis’ incorporating 
+Mean plasma and serum THC, 11− OH-THC and 11− COOH-THC data from Regular and Other Cannabis Users. Those data obtained after 
+concentrations were divided by conversion factors of 1.5, 1.6 and 1.7, inhaling (i.e., smoking, vaporising) and orally ingesting THC were also 
+respectively to approximate equivalent whole blood concentrations for separated to investigate the relationships between THC-related bio-
+analysis (Giroud et al., 2001). markers and impairment. This was done because oral and inhaled THC 
+The terms used to describe participants’ cannabis use behaviour are have strikingly different pharmacokinetic profiles (Vandrey et al., 2017; 
+defined in Table 2 of McCartney et al., (2021b). Each participant pop- Spindle et al., 2019) and the multi-level analyses employed might 
+ulation was categorised based on the range of use behaviours exhibited otherwise have masked this ‘pharmacokinetic variance’ (i.e., the 
+by its participants. These categories were collapsed into two main different levels and routes of administration always ‘overlap’ with one 
+groups for all analyses: Regular Cannabis Users (which included pop- another making their effects difficult to disentangle). 
+ulations of Daily Users, Weekly Users and Weekly–Daily Users) and All statistical analyses were performed using R Studio (version 
+Other Cannabis Users (all other populations). 4.0.1); the accompanying R scripts are available in Supplementary File 
+4. Meta-regression analyses were performed using the metafor-package 
+2.6. Data synthesis (Viechtbauer, 2010) with syntax adapted from Assink and Wibbelink 
+(2016). Effect estimates were weighted as described elsewhere 
+2.6.1. Hedges’ g effect estimates (Viechtbauer, 2010); weightings were proportionate to the variance in 
+Hedges’ g effect estimates were calculated by standardising the mean performance, only (not in THC-related biomarkers or subjective intoxi-
+difference between control (placebo) and intervention (THC) perfor- cation). Statistical significance was attained if the 95 % CI did not 
+mance scores against either the standard deviation (SD) of the perfor- include zero. Heterogeneity was assessed using Cochran’s Q, the 
+mance change (SDΔ) (corrected for correlation) (if a within-subject I
+2-index and the within-cluster and between-cluster variance compo-
+design was used) or the pooled SD (SDpooled) (if a between-subject nents (i.e., σ 21 , σ 2 2 and σ 23 ). Significant heterogeneity was indicated by 
+design was used) and correcting for bias due to small sample size as a p-value <0.05 for Cochran’s Q (Borenstein et al., 2011). 
+described elsewhere (McCartney et al., 2021b). Variances were derived Non-meta-analytic multilevel correlation analyses were used to 
+via standard methods (Borenstein et al., 2011). Negative effect estimates approximate the strength of the linear relationship (correlation coeffi-
+were used to signify an impairing effect of THC irrespective of the per- cient, R) between each covariate and ‘impairment’ (i.e., adjusted Hed-
+formance outcome. ges’ g; described above). While pseudo-R2 is typically used to assess 
+Unless either raw data, the SDΔ, or a p-value (or t-statistic) derived goodness of fit in meta-regression analysis, this approach proved inap-
+from a paired t-test was reported (or provided on request), the SDΔ was propriate in the current instance as some initial (un-moderated) models 
+estimated using the mean correlation coefficient (R = 0.530) as contained less variance than the final (moderated) model, yielding 
+described elsewhere (McCartney et al., 2021b). (Raw data were avail- erroneous pseudo-R2 values. These multilevel correlation analyses 
+able for two of the studies identified in the updated literature search (which account for dependency among effect estimates derived from the 
+(Arkell et al., 2020b; Spindle et al., 2021)). Sensitivity analyses were 
+performed using values calculated at R = 0.2 and R = 0.8 to determine 
+the robustness of the imputed R. 1 For example, the Reaction Time coefficient derived from the analysis of 
+2.6.2. Meta-regression analysis inhaled THC’s effects in Other Cannabis Users (–0.1080) was subtracted from all effect estimates obtained on Reaction Time performance tests in studies 
+Four-level restricted maximum likelihood meta-regression analyses where inhaled THC was administered to Other Cannabis Users (and so forth, 
+were performed to investigate the relationships between different THC- using the relevant meta-regression coefficient for each effect estimate). The 
+related biomarkers, subjective intoxication, and impairment of driving average meta-regression coefficient across all Performance Domains (i.e. 
+and driving-related cognitive skills. A two-level analysis is equivalent to –0.1328 where inhaled THC was administered to Other Cannabis Users), was 
+a traditional random effects analysis (where there is only one random then added to each value. 
+3
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+same studies and trials but do not ‘weight’ effect estimates as meta- Table 2 
+regression does) were performed using the correlation package The number of outcomes (effect estimates) for which a corresponding mea-
+(Makowski et al., 2019). Correlations were interpreted as ‘very weak’ (R surement of subjective intoxication or oral fluid THC concentration was ob-
+<0.2), ‘weak’ (R = 0.2− 0.4), ‘moderate’ (R = 0.4− 0.6), ‘strong’ (R = tained per Cannabis Use Behavior, Route of THC Administration and 
+0.6− 0.8), and ‘very strong’ (R >0.8) (Swinscow, 1997). Performance Domain.   
+Subjective Intoxication Oral Fluid THC 
+3. Results (Total effect estimates = (Total effect estimates =
+570) 45)  
+3.1. Overview of included studies and study quality Other Regular Other Regular 
+Performance Domain Inhaled Oral Inhaled Inhaled Oral Inhaled 
+Twenty-eight publications (n = 824 participants; 71 % male) were Divided Attention 111 74 4 8 0 0 
+included in this review. These publications measured a total of 822 Tracking 77 37 7 12 0 0 
+eligible outcomes across 57 trials; that is, there were 822 instances Performance 
+where the effects of THC were measured in concert with subjective Information 82 58 4 8 0 0 
+intoxication and/or one or more THC related-biomarkers. In all, 768 Processing 
+Conflict Control 12 0 5 9 0 0 
+outcomes had a corresponding measure of subjective intoxication; 768 Fluid Intelligence - a - a 0 - a - a 0 
+had blood THC, 211 had blood 11− OH-THC and 152 had blood Reaction Time 15 2 0 0 0 0 
+11− COOH-THC concentrations; and 45 outcomes had a corresponding Fine Motor Function - a 26 4 - a 0 0 
+measure of oral fluid THC concentration. Outcomes are summarised by Sustained Attention 15 12 12 0 0 0 
+Cannabis Use Behavior, Route of THC Administration and Performance Working Memory 114 76 8 8 0 0 SDLP (Only) 5 - a 8 0 - a 0 
+Domain in Tables 1 & 2 . The study selection process is detailed in Reaction Time - a - a 0 - a - a 0 
+Supplementary File 1 and summarised in Fig. 1. The quality assessment (Driving) 
+generated a Mean ± SD Rosendal score of 70 ± 10 % (53–93 %) (Sup- Total Outcomes 431 285 52 45 0 0 
+plementary File 2). Inhaled: Inhaled THC; Oral: Oral THC; Other: Other Cannabis Users; Regular: 
+Regular Cannabis Users; SDLP: Standard Deviation of Lateral Position. a: Per-
+3.2. Meta-regression and correlation analyses of THC effects formance domain is ineligible for inclusion as per Sect. 2.3 ‘Performance Out-
+comes’. ‘Cannabis Use Behaviour’ is defined as per Sect. 2.5 ‘Data Extraction’. 
+The characteristics of the included studies are summarised in Sup- Details of the included studies are presented in Supplementary File 3. Nb. No 
+plementary File 3 with the results of the meta-regression analyses eligible studies measured oral THC’s effects in Regular Cannabis Users. 
+summarised in Table 3 and Figs. 2 & 3 . The results of the sensitivity 
+analyses are presented in Supplementary File 5. 11− COOH-THC concentrations, were associated with increased 
+impairment after ingestion of THC in Other Cannabis Users (Table 3; 
+3.2.1. Other Cannabis users Figs. 2 & S1). However, (1) a significant amount of residual heteroge-
+Higher blood THC, 11− OH-THC and 11− COOH-THC concentrations neity was present in the analysis of THC; and (2) the initial (un- 
+and oral fluid THC concentrations were associated with increased moderated) versions of the remaining analyses (11− OH-THC and 
+impairment (i.e., more negative Hedges’ g effect estimates) after inha- 11− COOH-THC) demonstrated a high degree of homogeneity, making it 
+lation of THC in Other (i.e., mostly occasional) Cannabis Users (Table 3; difficult to determine the influence of a particular covariate. All corre-
+Fig. 2). However, a significant amount of residual heterogeneity was lations (R [95 % CIs]) were very weak (blood THCpost-ingestion: -0.08 
+present in each analysis. Correlations (R [95 % CIs]) were very weak [-0.19, 0.04]; blood 11− OH-THCpost-ingestion: -0.13 [-0.46, 0.24]; blood 
+(blood THCpost-inhalation: -0.10 [-0.19, -0.01]), weak (blood 11− OH- 11− COOH-THCpost-ingestion: <0.01 [-0.45, 0.44]) in strength. No eligible 
+THCpost-inhalation: -0.24 [-0.38, -0.08]; oral fluid THCpost-inhalation: -0.36 studies measured oral fluid THC concentrations after ingestion of THC. 
+[-0.59, -0.08]) and moderate (blood 11− COOH-THCpost-inhalation: -0.43 Higher subjective ratings of intoxication were associated with 
+[-0.58, -0.25]) in strength. increased impairment after ingestion/inhalation of THC (combined) in 
+Higher blood THC and 11− OH-THC concentrations, but not blood Other Cannabis Users (Table 3; Fig. 2). However, a significant amount of 
+Table 1 
+The number of outcomes (effect estimates) for which a corresponding measurement of blood THC, 11− OH-THC or 11− COOH-THC concentration was obtained per 
+Cannabis Use Behavior, Route of THC Administration and Performance Domain.   
+Blood THC Blood 11-OH-THC Blood 11-COOH-THC 
+(Total effect estimates = 568) (Total effect estimates = 195) (Total effect estimates = 135)  
+Other Regular Other Regular Other Regular 
+Performance Domain Inhaled Oral Inhaled Inhaled Oral Inhaled Inhaled Oral Inhaled 
+Divided Attention 115 70 4 19 0 4 16 0 4 
+Tracking Performance 79 35 7 38 0 7 26 0 7 
+Information Processing 84 59 4 12 3 4 12 0 4 
+Conflict Control 12 0 1 20 0 1 17 0 1 
+Fluid Intelligence - a - a 0 - a - a 0 - a - a 0 
+Reaction Time 15 5 0 16 5 0 1 2 0 
+Fine Motor Function - a 26 4 - a 18 4 - a 18 4 
+Sustained Attention 15 5 12 7 5 12 4 0 12 
+Working Memory 118 70 0 30 0 0 18 0 0 
+SDLP (Only) 5 - a 8 2 - a 4 2 - a 4 
+Reaction Time (Driving) - a - a 0 - a - a 0 - a - a 0 
+Total Outcomes 443 285 40 144 31 36 96 20 36 
+Inhaled: Inhaled THC; Oral: Oral THC; Other: Other Cannabis Users; Regular: Regular Cannabis Users; SDLP: Standard Deviation of Lateral Position. a: Performance 
+domain is ineligible for inclusion as per Sect. 2.3 ‘Performance Outcomes’. ‘Cannabis Use Behaviour’ is defined as per Sect. 2.5 ‘Data Extraction’. Details of the included 
+studies are presented in Supplementary File 3. Nb. No eligible studies measured oral THC’s effects in Regular Cannabis Users. 
+4
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+Fig. 1. Study Selection. a: Outcomes that were 
+not adequately reported, derived from studies 
+of clinical populations, or derived from studies 
+that scored <50 % on the methodological 
+quality assessment (see McCartney et al. 
+(2021b) Supplementary File 2) were ineligible 
+for quantitative synthesis; b: Several studies 
+reported their oral fluid THC and blood 
+cannabinoid concentrations in separate papers 
+(i.e., from their performance test results) as 
+referenced here: (Ramaekers et al. (2006); 
+Arkell et al. (2019b)). n1: number of studies; n2: 
+number of outcomes (effect estimates). 
+Excluded studies are listed in Supplementary 
+File 1. Note: Studies were only excluded if they 
+did not contain any eligible outcomes (meaning 
+that some excluded outcomes are derived from 
+included studies).   
+residual heterogeneity was present in the analysis. The correlation (R without initial heterogeneity) contained a significant amount of residual 
+[95 % CIs]) was weak (-0.29 [-0.36, -0.22]) in strength. heterogeneity, suggesting that these biomarkers have only a limited 
+capacity to predict impairment. In fact, most of these ‘bio-
+3.2.2. Regular Cannabis users marker–performance’ relationships were found to be weak in strength 
+Blood THC, 11− OH-THC and 11− COOH-THC concentrations and (R<0.4). Blood THC concentration was the poorest correlate of 
+subjective ratings of intoxication were not associated with impairment impairment demonstrating a ‘very weak’ relationship after both inges-
+after inhalation of THC in Regular Cannabis Users (Table 3; Fig. 3). tion (R=-0.08) and inhalation (R=-0.10) of THC. Indeed, it is possible 
+However, the initial (un-moderated) versions of these analyses demon- that blood THC concentrations do not accurately reflect brain THC 
+strated a high degree of homogeneity, making it difficult to determine concentrations (Hložek et al., 2017), which may be more closely related 
+the influence of a particular covariate. All correlations (R [95 % CIs]) to impairment. In any case, these findings suggest that some 
+were very weak in strength (blood THCpost-inhalation: +0.09 [-0.23, cannabis-impaired drivers may be mistakenly identified as 
++0.39]; blood 11− OH-THCpost-inhalation: <0.01 [-0.33, +0.33]; blood not-meaningfully-impaired (and vice-versa) when per se limits are used 
+11− COOH-THCpost-inhalation: -0.05 [-0.37, +0.28]; subjective intoxica- to identify impairment. 
+tion: -0.02 [-0.29, +0.26]). No eligible studies of regular cannabis users The ‘strongest’ (although still only ‘moderate’, R = 0.43) bio-
+measured oral fluid THC concentrations at an appropriate time relative marker–performance relationship observed was for the inactive 
+to the performance test(s) or administered THC via the oral route. metabolite, 11− COOH-THC (after inhalation of THC). This finding was 
+unexpected given that 11− COOH-THC is non-intoxicating, but could 
+4. Discussion reflect differences in the pharmacokinetics of THC, 11− OH-THC, and 
+11− COOH-THC. Indeed, while blood THC and 11− OH-THC concen-
+Per se concentrations of THC and THC-metabolites are often used to trations peak and then decline rapidly following inhalation of THC, 
+identify cannabis-impaired drivers on public roads and in the workplace. blood 11− COOH-THC concentrations decline gradually (Vandrey et al., 
+Yet, research validating the relationships between THC-related bio- 2017; Spindle et al., 2019). This trajectory may better match the time 
+markers, subjective intoxication, and impairment of driving and driving- course of impairment – even if 11− COOH-THC is not contributing to the 
+related cognitive skills is relatively limited (Arkell et al., 2020a; Ram- impairment. It is worth noting, however, that 11− COOH-THC persists in 
+aekers et al., 2006; Vandrey et al., 2017; Schlienz et al., 2020). The blood for prolonged periods following THC use (e.g. > 7-days (Karsch-
+current investigation used meta-analytic techniques to better charac- ner et al., 2009)) – well beyond the usual period of impairment (i.e., 
+terise these relationships in ‘regular’ (i.e., weekly, or more often) and ~3–10 -hs) (McCartney et al., 2021b). Studies employing longer 
+‘other’ (i.e., mostly occasional) cannabis users. assessment periods (e.g., >12-hs) would therefore be expected to 
+The current meta-regression analyses identified significant, linear observe weaker relationships. In addition, no significant relationship 
+relationships between most THC-related biomarkers (i.e., blood THC, was observed between blood 11− COOH-THC concentration and 
+11− OH-THC and 11− COOH-THC concentrations and oral fluid THC impairment after ingestion of THC (although this analysis was less 
+concentrations) and impairment of driving and driving-related cognitive robust). 
+skills in occasional cannabis users. However, each analysis (except one A previous meta-regression analysis investigating the relationship 
+5
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+Table 3 
+Results of the meta-regression analyses in Other and Regular Cannabis Users.  
+Residual Heterogeneity 
+Covariate Effect Estimates 
+a 
+Hedges g (95% CIs) p-value Initial Heterogeneity (p- ’ 
+(n) value) p-value I
+2- σ 2 1 σ 2 2 2 σ3
+value 
+Analyses of Other Cannabis Users (Oral THC):        
+Intercept – − 0.212 (-0.334, <0.001 
+-0.091) p<0.001 p=0.006 36.3 0.000 0.011 0.011 
+− 0.047 (-0.081, 
+Blood THC 270 -0.014) 0.006 
+Intercept – 0.194 (-0.215, 0.604) 0.340 
+− 0.224 (-0.437, p = 0.841 p=0.994 18.2 <0.001 0.002 0.009 
+Blood 11-OH-THC 31 -0.010) 0.040 
+Intercept – 0.515 (-1.059, 2.089) 0.501 
+Blood 11-COOH-THC 20 − 0.044 (-0.130, 0.294 p = 0.979 p=0.985 0.2 <0.001 <0.001 <0.001 
+-0.042) 
+Analyses of Other Cannabis Users (Inhaled THC):        
+− 0.352 (-0.489, 
+Intercept – -0.216) <0.001 
+0.004 (-0.007, p<0.001 p<0.001 63.1 0.004 0.006 0.055 −
+Blood THC 442 0.017 
+-0.001) 
+Intercept − 0.283 (-0.420, – <0.001 
+-0.150) p<0.001 p = 0.002 40.7 0.010 <0.001 0.027 
+Blood 11-OH-THC 144 − 0.095 (-0.133, <0.001 
+-0.057) 
+− 0.159 (-0.389, 
+Intercept – 0.070) 0.172 
+0.033 (-0.050, p<0.001 p<0.001 64.0 0.013 0.002 0.063 −
+Blood 11-COOH-THC 96 <0.001 
+-0.017) 
+Intercept − 0.220 (-0.391, – 0.013 
+-0.048) p = 0.002 p=0.038 38.4 0.020 0.020 0.007 
+− 0.001 (-0.001, 
+Oral Fluid THC 45 -0.001) 0.007 
+Analyses of Other Cannabis Users (Oral and Inhaled THC):        
+− 0.171 (-0.262, 
+Intercept – -0.080) <0.001 
+p<0.001 p<0.001 47.5 0.003 0.005 0.027 
+Subjective 728 − 0.004 (-0.005, <0.001 
+Intoxication -0.003) 
+Analyses of Regular Cannabis Users (Inhaled THC):        
+− 0.274 (-0.443, 
+Intercept – -0.105) 0.002 p = 0.896 p = 0.893 14.4 <0.001 <0.001 0.012 
+Blood THC 40 0.005 (-0.008, 0.018) 0.468 
+− 0.323 (-0.496, 
+Intercept – -0.150) <0.001 p = 0.941 p=0.938 5.1 <0.001 0.004 <0.001 
+Blood 11-OH-THC 36 0.020 (-0.049, 0.089) 0.583 
+Intercept − 0.340 (-0.520, – <0.001 
+-0.161) p = 0.941 p=0.948 6.4 <0.001 0.005 <0.001 
+Blood 11-COOH-THC 36 0.002 (-0.004, 0.008) 0.429 
+− 0.203 (-0.502, 
+Intercept – 0.095) 0.178 
+Subjective 0.002 (-0.007, p = 0.075 p=0.108 30.9 0.015 0.003 0.011 −
+52 0.531 
+Intoxication 0.004) 
+‘-‘: Not applicable. a: All covariates were omitted from these analyses. Details of included studies are summarised in Table 1 & 2 and presented in Supplementary File 3. 
+No eligible studies measured oral fluid THC concentrations in Regular Cannabis Users. 
+between BAC and SDLP puts the current findings in a wider context. This performance) would permit better characterisation of the relationships 
+analysis identified a significant relationship between BAC and SDLP between THC-related biomarkers and driving impairment. 
+with BAC explaining a high proportion (R2 = 0.8–1.0) of the variance Previous studies investigating the relationships between THC-related 
+observed (Irwin et al., 2017). Such observations support the use of per se biomarkers and impairment of driving and driving-related cognitive 
+limits in identifying alcohol-intoxicated drivers and demonstrate the skills have generated somewhat inconsistent results (Arkell et al., 2020a; 
+validity of a key biomarker–performance relationship that is enshrined Ramaekers et al., 2006; Vandrey et al., 2017; Schlienz et al., 2020). For 
+in current legislation. It is important to acknowledge that unlike this example, (Arkell et al., 2020a) found no significant relationship between 
+earlier analysis of BAC and SDLP, the current investigation incorporated the change (from placebo) in SDLP and plasma or oral fluid THC con-
+a range of different driving-related outcome measures. These measures centrations (τb= -0.011 & -0.033) following vaporisation of THC (13.75 
+could have differed in their sensitivity to THC’s effects and introduced mg; n = 14). Whereas (Schlienz et al. (2020)) observed a number of 
+additional variance into the analyses, thus, reducing the strength of the significant correlations (ranging from weak to strong in strength) be-
+relationships observed. However, effect estimates were adjusted to tween the change (from placebo) in performance on two discrete 
+control for the influence of Performance Domain. Very few studies have cognitive tests and blood THC, 11− OH-THC and 11− COOH-THC con-
+measured the effects of THC on SDLP in combination with a relevant centrations following oral ingestion of THC (10, 25 & 50 mg; n = 17). 
+(and appropriately timed) biomarker (Arkell et al., 2019a; Brands et al., Other studies have reported a mixture of weak, significant and 
+2019; Micallef et al., 2018; Hartman et al., 2015; Ronen et al., 2010; non-significant correlations between similar biomarkers and outcome 
+Fares et al., 2021). Further research using simulated and on-road driving measures (Ramaekers et al., 2006; Vandrey et al., 2017). This incon-
+methods (or other measures that have a known relationship with driving sistency could partly reflect the fact these studies have administered 
+6
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+Fig. 2. The predicted relationships between blood (A) THC, (B) 11− OH-THC and (C) 11− COOH-THC concentration post-inhaled THC, (D) oral fluid THC con-
+centration post-inhaled THC, (E) subjective intoxication and (F) blood THC concentration post-ingested THC and the Hedges’ g (95 % CI) effect of THC on driving and 
+driving-related cognitive skills in Other Cannabis Users (per the analyses presented in Table 3). Dashed line represents a Hedges’ g effect of zero. Circle diameter 
+corresponds to the weight of each effect estimate. Negative effect estimates indicate an impairing effect of THC. The predicted relationships between blood 11− OH- 
+THC and 11− COOH-THC concentration post-ingested THC and the Hedges’ g (95 % CI) effect of THC on driving and driving-related cognitive skills in Other Cannabis 
+Users can be found in Supplementary File 5. 
+Fig. 3. The predicted relationships between blood (A) THC, (B) 11− OH-THC and (C) 11− COOH-THC concentration post-inhaled THC and (D) subjective intoxication 
+post-inhaled THC and the Hedges’ g (95 % CI) effect of THC on driving and driving-related cognitive skills in Regular Cannabis Users (per the analyses presented in 
+Table 3). Dashed line represents a Hedges’ g effect of zero. Circle diameter corresponds to the weight of each effect estimate. Negative effect estimates indicate an 
+impairing effect of THC. 
+fixed doses of THC, via fixed routes, at fixed times relative to their them appear more pronounced. The current analyses, which incorporate 
+performance test(s). The ‘fixing’ of these factors may impact the amount data from studies using different research methods, should provide a 
+of variance in the dataset, potentially masking correlations or making more ecologically-valid representation of the variable conditions under 
+7
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+which people might use cannabis and therefore yield more generalisable expected to perform less consistently. This additional variance would 
+results. That said, the observed biomarker–performance relationships then be captured in the current weightings. 
+would have been more representative if data derived from regular and 
+occasional cannabis users and data obtained after inhalation and oral 5. Conclusion 
+ingestion of THC could have been combined in a single analysis, and if 
+the sample had had a more balanced distribution of male and female The current investigation used meta-analytic techniques to charac-
+participants. Indeed, it is important to acknowledge that almost terise the relationships between THC-related biomarkers, subjective 
+three-quarters of the current sample were male (71 %) and that some intoxication, and impairment of driving and driving-related cognitive 
+recent studies have observed sex differences in both the pharmacoki- skills in regular and occasional cannabis users. Results indicate that 
+netics and subjective effects of THC (Sholler et al., 2021; Cooper and blood THC, 11− OH-THC and 11− COOH-THC concentrations, oral fluid 
+Haney, 2014). THC concentrations, and subjective ratings of intoxication are relatively 
+The current meta-regression analyses also identified a significant, poor indicators of cannabis-induced impairment. The use of per se limits 
+linear relationship between subjective intoxication and impairment of as a means of identifying cannabis-impaired drivers should therefore be 
+driving and driving-related cognitive skills in occasional cannabis users. re-considered. Indeed, it seems there is a significant risk of unimpaired 
+As with the biomarkers, however, impairment varied to a greater extent individuals being mistakenly identified as ‘cannabis-impaired’ (and 
+than this covariate could explain with the relationship found to be vice-versa) under this approach. 
+‘weak’ in strength (R = 0.29). This suggests occasional cannabis users 
+may have difficulty self-evaluating their fitness to drive following THC Funding source 
+use. A recent study by some of the current authors found that occasional 
+users rated themselves impaired even when their on-road driving per- This research did not receive any specific grant from funding 
+formance (SDLP) had normalised ~4–5 h after vaporising cannabis agencies in the public, commercial, or not-for-profit sectors. Danielle 
+(Arkell et al., 2020c). Previous research also suggests that subjective McCartney and Iain S. McGregor receive salary support from the 
+intoxication is a poor predictor of BAC and alcohol-induced impairment Lambert Initiative for Cannabinoid Therapeutics, a philanthropically 
+(Starkey and Charlton, 2014). Individuals should therefore be encour- funded centre for medicinal cannabis research at the University of 
+aged to utilise objective measures of impairment (e.g., computerised Sydney. 
+applications such as the DRUID task (Spindle et al., 2021; Richman and 
+May, 2019)) and to wait a minimum length of time (e.g., ~3–10 -hs, 
+depending on the dose and route of administration (McCartney et al., Declaration of Competing Interest 
+2021b)) following THC use before performing safety-sensitive tasks such 
+as driving. Iain S.McGregor has acted as an expert witness in legal cases relating 
+While some significant biomarker–performance relationships were to the duration of impairment with cannabis and the use of biomarkers 
+observed in occasional cannabis users, none were detected in regular to detect cannabis-induced impairment. 
+cannabis users. These findings suggest per se limits are unlikely to be 
+effective in distinguishing between impaired and unimpaired (or not- Acknowledgements 
+meaningfully-impaired) regular cannabis users. This compromises the 
+validity of per se limits in general; that is, it is inappropriate to have a This research was not funded by a specific grant from any funding 
+regulatory framework that lacks validity in a key target demographic (i. agency in the public, commercial, or not-for-profit sectors. However, D. 
+e., regular cannabis users). Several factors might account the observed M., R.C.K. and I.S.M. receive salary support from the Lambert Initiative 
+differences between regular and other cannabis users, including that: (1) for Cannabinoid Therapeutics, a philanthropically funded centre for 
+regular cannabis users appear to be less sensitive to the impairing effects medicinal cannabis research at the University of Sydney. 
+of THC than occasional cannabis users (McCartney et al., 2021b; Colizzi 
+and Bhattacharyya, 2018); and (2) THC-related biomarkers (i.e., from Appendix A. Supplementary data 
+prior cannabis use) can persist in biological matrices for prolonged pe-
+riods of time (Karschner et al., 2009). Supplementary material related to this article can be found, in the 
+Caution is advised, however, as these data on regular cannabis users online version, at doi:https://doi.org/10.1016/j.neubiorev.2021.11.00 
+were analysed in an exploratory fashion without controlling for the in- 4. 
+fluence of performance domain. The initial (un-moderated) (and sub-
+sequent moderated) versions of these meta-regression models also References 
+demonstrated a high degree of homogeneity, making it difficult to 
+determine the influence of a particular covariate. This homogeneity Arkell, T.R., et al., 2019a. Cannabidiol (CBD) content in vaporized cannabis does not 
+could be due, in part, to the limited amount of data available on regular prevent tetrahydrocannabinol (THC)-induced impairment of driving and cognition. 
+cannabis users. Further research involving regular cannabis users, Psychopharmacology 236 (9), 2713–2724. Arkell, T.R., et al., 2019b. Detection of Δ9 THC in oral fluid following vaporized cannabis 
+including medicinal cannabis users, is therefore warranted. Indeed, pa- with varied cannabidiol (CBD) content: an evaluation of two point-of-collection 
+tients using legal (i.e., prescribed) medicinal cannabis products in testing devices. Drug Test. Anal. 11 (10), 1486–1497. 
+countries such as Australia, where they are not exempt from roadside Arkell, T.R., et al., 2020a. The failings of per se limits to detect cannabis-induced driving impairment: results from a simulated driving study. Traffic Inj. Prev. 1–6. 
+drug testing (Arkell et al., 2021), are greatly impacted by per se limits Arkell, T.R., et al., 2020b. Effect of cannabidiol and? 9-Tetrahydrocannabinol on driving 
+and zero tolerance legislation. These individuals may also exhibit performance: a randomized clinical trial. JAMA - Journal of the American Medical 
+different biomarker–performance relationships, particularly if THC Association 324 (21), 2177–2186. 
+Arkell, T.R., et al., 2020c. Effect of cannabidiol and Δ9-Tetrahydrocannabinol on driving 
+ameliorates clinical symptoms that impair driving performance (e.g., performance: a randomized clinical trial. JAMA 324 (21), 2177–2186. 
+pain, insomnia). Arkell, T., McCartney, D., McGregor, I., 2021. Medical cannabis and driving. Australian 
+One additional limitation of this investigation is that the variance in Journal for General Practitioners 50, 357–362. 
+Assink, M., Wibbelink, C.J., 2016. Fitting three-level meta-analytic models in R: a step- 
+THC-related biomarkers or subjective intoxication was not incorporated by-step tutorial. Quant. Methods Psychol. 12 (3), 154–174. 
+in the multi-level meta-regression models; that is, weightings are pro- Banister, S.D., et al., 2019. Dark classics in chemical neuroscience: Δ9- 
+portionate to the variance in driving-related outcome measures, only. Of tetrahydrocannabinol. ACS Chem. Neurosci. 10 (5), 2160–2175. 
+course, if these were, indeed, good indicators of impairment, and con- Blomberg, R.D., et al., 2005. Crash Risk of Alcohol Involved Driving: a Case-control Study. 
+centrations varied within a population, the population would be Borenstein, M., et al., 2011. Introduction to Meta-analysis. John Wiley & Sons. 
+8
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+Brands, B., et al., 2019. Acute and residual effects of smoked cannabis: impact on driving 3.Schlienz, N.J., et al., Pharmacodynamic dose effects of oral 
+speed and lateral control, heart rate, and self-reported drug effects. Drug Alcohol cannabis ingestion in healthy adults who infrequently use cannabis. 
+Depend. 205, 107641. 
+Chow, R.M., et al., 2019. Driving under the influence of cannabis: a framework for future Drug and Alcohol Dependence, 2020: p. 107969. 
+policy. Anesth. Analg. 128 (6), 1300–1308. 4.Brands, B., et al., Acute and residual effects of smoked cannabis: 
+Colizzi, M., Bhattacharyya, S., 2018. Cannabis use and the development of tolerance: a Impact on driving speed and lateral control, heart rate, and self-reported 
+systematic review of human evidence. Neurosci. Biobehav. Rev. 93, 1–25. 
+Cooper, Z.D., Haney, M., 2014. Investigation of sex-dependent effects of cannabis in daily drug effects. Drug and Alcohol Dependence, 2019. 205. 
+cannabis smokers. Drug Alcohol Depend. 136, 85–91. 5.Mason, N.L., et al., Cannabis induced increase in striatal glutamate 
+Fares, A., et al., 2021. Combined effect of alcohol and cannabis on simulated driving. associated with loss of functional corticostriatal connectivity. European 
+Psychopharmacology. 
+Giroud, C., et al., 2001. Δ9-THC, 11-OH-Δ9-THC and Δ9-THCCOOH plasma or serum to Neuropsychopharmacology, 2019. 29(2): p. 247-256. 
+whole blood concentrations distribution ratios in blood samples taken from living 6.Mason, N.L., et al., Reduced responsiveness of the reward system is 
+and dead people. Forensic Sci. Int. 123 (2–3), 159–164. associated with tolerance to cannabis impairment in chronic users. 
+Hartman, R.L., et al., 2015. Cannabis effects on driving lateral control with and without 
+alcohol. Drug Alcohol Depend. 154, 25–37. Addiction Biology, 2019. 
+Hložek, T., et al., 2017. Pharmacokinetic and behavioural profile of THC, CBD, and THC 7.Arkell, T.R., et al., Cannabidiol (CBD) content in vaporized 
++CBD combination after pulmonary, oral, and subcutaneous administration in rats cannabis does not prevent tetrahydrocannabinol (THC)-induced 
+and confirmation of conversion in vivo of CBD to THC. Eur. Neuropsychopharmacol. 
+27 (12), 1223–1237. impairment of driving and cognition. Psychopharmacology, 2019. 236 
+Irwin, C., et al., 2017. Effects of acute alcohol consumption on measures of simulated (9): p. 2713-2724. 
+driving: a systematic review and meta-analysis. Accid. Anal. Prev. 102, 248–266. 8.Spindle, T.R., et al., Acute Effects of Smoked and Vaporized 
+Karschner, E.L., et al., 2009. Implications of plasma Δ9-tetrahydrocannabinol, 11-hy- Cannabis in Healthy Adults Who Infrequently Use Cannabis A Crossover 
+droxy-THC, and 11-nor-9-carboxy-THC concentrations in chronic cannabis smokers. 
+J. Anal. Toxicol. 33 (8), 469–477. Trial. Jama Network Open, 2018. 1(7). 
+Makowski, D., et al., 2019. Methods and algorithms for correlation analysis in r. J. Open 9.Schoedel, K.A., et al., Abuse potential assessment of cannabidiol 
+Source Softw. 5 (51), 2306. (CBD) in recreational polydrug users: A randomized, double-blind, 
+McCartney, D., et al., 2021a. Orally administered cannabidiol (CBD) does not produce 
+false-positive tests for THC on the Securetec DrugWipe® 5S or Dräger Drug Test® controlled trial. Epilepsy & Behavior, 2018. 88: p. 162-171. 
+5000. Drug Test. Anal. 10.Micallef, J., et al., Cannabis smoking impairs driving performance 
+McCartney, D., et al., 2021b. Determining the magnitude and duration of acute Δ9- on the simulator and real driving: a randomized, double-blind, placebo- 
+tetrahydrocannabinol (Δ9-THC)-induced driving and cognitive impairment: a 
+systematic and meta-analytic review. Neurosci. Biobehav. Rev. controlled, crossover trial. Fundamental & Clinical Pharmacology, 
+Micallef, J., et al., 2018. Cannabis smoking impairs driving performance on the simulator 2018. 32(5): p. 558-570. 
+and real driving: a randomized, double-blind, placebo-controlled, crossover trial. 11.Ramaekers, J.G., et al., Cannabis and cocaine decrease cognitive 
+Fundam. Clin. Pharmacol. 32 (5), 558–570. 
+Pasnin, L.T., Gjerde, H., 2021. Alcohol and drug use among road users involved in fatal impulse control and functional corticostriatal connectivity in drug users 
+crashes in Norway. Traffic Inj. Prev. 22 (4), 267–271. with low activity DBH genotypes. Brain Imaging and Behavior, 2016. 10 
+Ramaekers, J.G., et al., 2006. Cognition and motor control as a function of Δ9-THC (4): p. 1254-1263. 
+concentration in serum and oral fluid: limits of impairment. Drug Alcohol Depend. 
+85 (2), 114–122. 12.Mokrysz, C., et al., Are adolescents more vulnerable to the 
+Richman, J., May, S., 2019. An investigation of the Druid® smartphone/tablet app as a harmful effects of cannabis than adults? A placebo-controlled study in 
+rapid screening assessment for cognitive and psychomotor impairment associated human males. Translational Psychiatry, 2016. 6. 
+with alcohol intoxication. Vis. Dev. Rehabil. 5 (1), 31–42. 13.Theunissen, E.L., et al., Rivastigmine but not vardenafil reverses 
+Ronen, A., et al., 2010. The effect of alcohol, THC and their combination on perceived 
+effects, willingness to drive and performance of driving and non-driving tasks. Accid. cannabis-induced impairment of verbal memory in healthy humans. 
+Anal. Prev. 42 (6), 1855–1865. Psychopharmacology, 2015. 232(2): p. 343-353. 
+Schlienz, N.J., et al., 2020. Pharmacodynamic dose effects of oral cannabis ingestion in 14.Hartman, R.L., et al., Cannabis effects on driving lateral control 
+healthy adults who infrequently use cannabis. Drug Alcohol Depend. 211, 107969. 
+Sholler, D.J., et al., 2021. Sex differences in the acute effects of oral and vaporized with and without alcohol. Drug and Alcohol Dependence, 2015. 154: p. 
+cannabis among healthy adults. Addict. Biol. 26 (4), e12968. 25-37. 
+Spindle, T.R., et al., 2019. Acute pharmacokinetic profile of smoked and vaporized 15.Battistella, G., et al., Weed or Wheel! fMRI, Behavioural, and 
+cannabis in human blood and oral fluid. J. Anal. Toxicol. 43 (4), 233–258. 
+Spindle, T.R., et al., 2021. Assessment of cognitive and psychomotor impairment, Toxicological Investigations of How Cannabis Smoking Affects Skills 
+subjective effects, and blood THC concentrations following acute administration of Necessary for Driving. Plos One, 2013. 8(1). 
+oral and vaporized cannabis. J. Psychopharmacol. 35 (7), 786–803. 16.Ronen, A., et al., The effect of alcohol, THC and their combination 
+Starkey, N.J., Charlton, S.G., 2014. The effects of moderate alcohol concentrations on 
+driving and cognitive performance during ascending and descending blood alcohol on perceived effects, willingness to drive and performance of driving 
+concentrations. Hum. Psychopharmacol. Clin. Exp. 29 (4), 370–383. and non-driving tasks. Accident Analysis and Prevention, 2010. 42(6): p. 
+Swinscow, T., 1997. Correlation and regression, in Statistics at Square One Ninth Edition. 1855-1865. 
+BMJ Publishing Group. 
+Van Rosendal, S.P., et al., 2010. Guidelines for glycerol use in hyperhydration and 17.Böcker, K.B.E., et al., Cannabis with high Δ9-THC contents affects 
+rehydration associated with exercise. Sport. Med. 40 (2), 113–139. perception and visual selective attention acutely: An event-related po-
+Vandrey, R., et al., 2017. Pharmacokinetic profile of oral cannabis in humans: blood and tential study. Pharmacology Biochemistry and Behavior, 2010. 96(1): p. 
+oral fluid disposition and relation to pharmacodynamic outcomes. J. Anal. Toxicol. 67-74. 
+41 (2), 83–99. 
+Verster, J.C., Roth, T., 2011. Standard operation procedures for conducting the on-the- 18.Ramaekers, J.G., et al., Neurocognitive performance during acute 
+road driving test, and measurement of the standard deviation of lateral position THC intoxication in heavy and occasional cannabis users. Journal of 
+(SDLP). Int. J. Gen. Med. 4, 359. Psychopharmacology, 2009. 23(3): p. 266-277. 
+Viechtbauer, W., 2010. Conducting meta-analyses in R with the metafor package. J. Stat. 
+Softw. 36, 1–48. 19.Hunault, C.C., et al., Cognitive and psychomotor effects in males 
+Wong, K., Brady, J.E., Li, G., 2014. Establishing legal limits for driving under the after smoking a combination of tobacco and cannabis containing up to 
+influence of marijuana. Inj. Epidemiol. 1 (1), 1–8. 69 mg delta-9-tetrahydrocannabinol (THC). Psychopharmacology, 
+2009. 204(1): p. 85-94. 
+Reviewed Papers 20.Roser, P., et al., Psychomotor performance in relation to acute 
+oral administration of Δ 9-tetrahydrocannabinol and standardized 
+1.Spindle, T.R., et al., Pharmacodynamic effects of vaporized and cannabis extract in healthy human subjects. European archives of psy-
+oral cannabidiol (CBD) and vaporized CBD-dominant cannabis in chiatry and clinical neuroscience, 2009. 259(5): p. 284. 
+infrequent cannabis users. Drug and Alcohol Dependence, 2020: p. 21.Roser, P., et al., Effects of acute oral Δ9-tetrahydrocannabinol 
+107937. and standardized cannabis extract on the auditory P300 event-related 
+2.Matheson, J., et al., Sex differences in the acute effects of smoked potential in healthy volunteers. European Neuropsychopharmacology, 
+cannabis: evidence from a human laboratory study of young adults. 2008. 18(8): p. 569-577. 
+Psychopharmacology, 2020. 237(2): p. 305-316. 22.Ramaekers, J.G., et al., High-potency marijuana impairs 
+9
+D. McCartney et al.                                                                                                                                                                         N  e  u  r o  s c i e  n  c e   a n  d   B  i o  b e  h  a v  i o  r a  l  R  e v iews xxx (xxxx) xxx
+executive function and inhibitory motor control. Neuro- Neuropsychopharmacology, 2020. 45(11): p. 1807-1816. 
+psychopharmacology, 2006. 31(10): p. 2296-2303. 26. Arkell, T.R., et al., Effect of Cannabidiol and? 9-Tetrahydrocan-
+23.Nicholson, A.N., et al., Effect of Δ-9-tetrahydrocannabinol and nabinol on Driving Performance: A Randomized Clinical Trial. JAMA - 
+cannabidiol on nocturnal sleep and early-morning behavior in young Journal of the American Medical Association, 2020. 324(21): p. 2177- 
+adults. Journal of Clinical Psychopharmacology, 2004. 24(3): p. 305- 2186. 
+313. 27. Fares, A., et al., Combined effect of alcohol and cannabis on 
+24.Curran, V.H., et al., Cognitive and subjective dose-response ef- simulated driving. Psychopharmacology, 2021. 
+fects of acute oral Δ9-tetrahydrocannabinol (THC) in infrequent 28. Spindle, T.R., et al., Assessment of cognitive and psychomotor 
+cannabis users. Psychopharmacology, 2002. 164(1): p. 61-70. impairment, subjective effects, and blood THC concentrations following 
+25. Adam, K.C.S., et al., Δ9-Tetrahydrocannabinol (THC) impairs acute administration of oral and vaporized cannabis. Journal of Psy-
+visual working memory performance: a randomized crossover trial. chopharmacology, 2021. 35(7): p. 786-803. 
+10

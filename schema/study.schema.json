@@ -16,7 +16,7 @@
         "year": { "type": "integer" },
         "doi": { "type": "string" },
         "pmid": { "type": "string" },
-        "pmcid": { "type": "string" },
+        "pmcid": { "type": ["string", "null"] },
         "url": { "type": "string", "format": "uri" },
         "retrieved": { "type": "string", "format": "date" },
         "retrieval_method": { "type": "string" }
