@@ -177,3 +177,21 @@ export function isFormEffectSignificant(stat: BidwellStatEntry): boolean {
   const num = Number(stat.p.replace("<", "").trim());
   return !Number.isNaN(num) && num <= 0.05;
 }
+
+// --- McCartney 2021/2022 meta-regression correlations ---
+
+export interface BiomarkerCorrelation {
+  biomarker: string;
+  R: number;
+  ci95: [number, number];
+  strength_band?: string;
+  significant?: boolean;
+  note?: string;
+}
+
+/** Claim.significance is typed loosely (unknown) since claims hold very different
+ * shapes; this is the one narrow cast point for McCartney's { values: [...] } shape. */
+export function biomarkerValues(claim: Claim | undefined): BiomarkerCorrelation[] {
+  const sig = claim?.significance as { values?: BiomarkerCorrelation[] } | undefined;
+  return sig?.values ?? [];
+}

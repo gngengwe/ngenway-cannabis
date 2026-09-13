@@ -24,6 +24,11 @@
 
   --status-warning: #fab219;
   --status-good: #0ca30c;
+
+  /* Generic "is this specific point estimate significant" encoding, decoupled from any
+     exhibit's own subject-matter colors (dose, form) so it reads the same everywhere. */
+  --finding-significant: #2a78d6;
+  --finding-not-significant: #898781;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +51,9 @@
 
     --form-flower: #3987e5;
     --form-concentrate: #d95926;
+
+    --finding-significant: #3987e5;
+    --finding-not-significant: #898781;
   }
 }
 

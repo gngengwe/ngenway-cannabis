@@ -2,12 +2,14 @@ import { useState } from "react";
 import { SafetyBanner } from "./components/SafetyBanner";
 import { Exhibit001 } from "./pages/Exhibit001";
 import { Exhibit002 } from "./pages/Exhibit002";
+import { Exhibit003 } from "./pages/Exhibit003";
 
-type ExhibitId = "001" | "002";
+type ExhibitId = "001" | "002" | "003";
 
 const EXHIBITS: Record<ExhibitId, { label: string; enabled: boolean }> = {
   "001": { label: "001 — Dose ≠ High", enabled: true },
   "002": { label: "002 — Potency ≠ Impairment", enabled: true },
+  "003": { label: "003 — Blood THC ≠ Cannabis BAC", enabled: true },
 };
 
 export default function App() {
@@ -55,7 +57,9 @@ export default function App() {
       </header>
 
       <main style={{ maxWidth: 880, margin: "0 auto", padding: "24px 20px 60px" }}>
-        {active === "001" ? <Exhibit001 /> : <Exhibit002 />}
+        {active === "001" && <Exhibit001 />}
+        {active === "002" && <Exhibit002 />}
+        {active === "003" && <Exhibit003 />}
       </main>
     </div>
   );
