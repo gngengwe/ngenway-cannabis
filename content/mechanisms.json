@@ -25,5 +25,41 @@
     "supporting_claims": ["ramesh-2013-mrf-not-dose-dependent", "ramesh-2013-vas-high-not-dose-dependent"],
     "study_id": "ramesh-2013",
     "source_ref": "Discussion P29"
+  },
+  {
+    "id": "bidwell-2020-self-titration-hypothesis",
+    "name": "Self-titration to similar THC exposure within product form",
+    "description": "Because 16% vs 24% flower (and 70% vs 90% concentrate) did not produce significantly different blood THC levels, authors suggest users may be self-titrating -- adjusting how much they consume -- to reach a similar target level of exposure as labeled potency rises within a form. This is an inference from an absence of a potency effect, not a directly observed titration behavior (contrast with ramesh-2013-self-titration, where reduced inhalation was directly measured via CO and cigarette weight).",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["bidwell-2020-no-within-form-potency-effect"],
+    "study_id": "bidwell-2020",
+    "source_ref": "Discussion (H1-4), paragraph 2"
+  },
+  {
+    "id": "bidwell-2020-tolerance-hypothesis",
+    "name": "Greater tolerance in concentrate users",
+    "description": "Proposed explanation for why concentrate users, despite ~2.3x higher plasma THC, did not show correspondingly higher subjective intoxication: concentrate users may have greater tolerance to THC's psychoactive effects from more frequent/higher exposure. Explicitly framed by the authors as one of three competing possibilities requiring future research, not a demonstrated mechanism in this study.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["bidwell-2020-intoxication-not-different-by-form", "bidwell-2020-plasma-thc-concentrate-gt-flower"],
+    "study_id": "bidwell-2020",
+    "source_ref": "Discussion (H1-4), paragraph 3"
+  },
+  {
+    "id": "bidwell-2020-receptor-saturation-hypothesis",
+    "name": "CB1 receptor saturation / diminishing returns at high THC",
+    "description": "Second proposed (unproven) explanation: cannabinoid CB1 receptors, as a partial-agonist target of THC, may become saturated at higher THC levels, beyond which additional THC produces diminishing subjective effect. Explicitly speculative in the source.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["bidwell-2020-intoxication-not-different-by-form"],
+    "study_id": "bidwell-2020",
+    "source_ref": "Discussion (H1-4), paragraph 3"
+  },
+  {
+    "id": "bidwell-2020-individual-variability-hypothesis",
+    "name": "Individual differences in metabolism/sensitivity",
+    "description": "Third proposed (unproven) explanation: genetic or other pre-existing biological differences in cannabinoid metabolism or sensitivity among users could account for the dissociation between blood THC and subjective intoxication. Explicitly speculative; authors state future research is needed to test all three candidate mechanisms.",
+    "interpretation_source": "author interpretation",
+    "supporting_claims": ["bidwell-2020-intoxication-not-different-by-form"],
+    "study_id": "bidwell-2020",
+    "source_ref": "Discussion (H1-4), paragraph 3"
   }
 ]

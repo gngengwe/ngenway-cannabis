@@ -1,0 +1,196 @@
+{
+  "study_id": "bidwell-2020",
+  "table": "Table 2. Means, Standard Errors, and Results From Mixed-Effect Models, Repeated Measures ANOVAs, and Testing of Main and Interaction Effects of Change and Form",
+  "provenance": "exact",
+  "note": "Each measure's model included baseline as a covariate. 'Form effect' = flower vs concentrate main effect; 'Form x linear/quadratic change' = interaction of form with the time trend.",
+  "groups": ["flower", "concentrate"],
+  "timepoints": ["preuse", "short_term_postuse", "1h_postuse"],
+  "measures": [
+    {
+      "domain": "cannabinoids", "measure": "THC", "unit": "ug/mL",
+      "means_se": {
+        "flower":     { "preuse": [0.004, 0.03], "short_term_postuse": [0.14, 0.03], "1h_postuse": [0.02, 0.03] },
+        "concentrate":{ "preuse": [0.01, 0.02],  "short_term_postuse": [0.32, 0.02], "1h_postuse": [0.03, 0.03] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,231)=0.20", "p": ".65" },
+        "time_quadratic": { "F": "F(1,231)=104.50", "p": "<.001" },
+        "form": { "F": "F(1,228)=11.00", "p": "<.01" },
+        "form_x_linear": { "F": "F(1,228)=0.04", "p": ".84" },
+        "form_x_quadratic": { "F": "F(1,228)=15.07", "p": "<.001" }
+      }
+    },
+    {
+      "domain": "cannabinoids", "measure": "11-OH-THC (active metabolite)", "unit": "ug/mL",
+      "means_se": {
+        "flower":     { "preuse": [0.001, 0.001], "short_term_postuse": [0.005, 0.001], "1h_postuse": [0.004, 0.001] },
+        "concentrate":{ "preuse": [0.004, 0.001], "short_term_postuse": [0.011, 0.001], "1h_postuse": [0.008, 0.001] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,231)=17.00", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,231)=41.06", "p": "<.001" },
+        "form": { "F": "F(1,228)=46.82", "p": "<.001" },
+        "form_x_linear": { "F": "F(1,228)=1.60", "p": ".21" },
+        "form_x_quadratic": { "F": "F(1,228)=3.76", "p": ".05" }
+      }
+    },
+    {
+      "domain": "subjective_drug_effects", "measure": "ARCI-marijuana effects scale", "unit": "proportion of 12 items endorsed, 0-1",
+      "means_se": {
+        "flower":     { "preuse": [0.17, 0.03], "short_term_postuse": [0.53, 0.03], "1h_postuse": [0.47, 0.03] },
+        "concentrate":{ "preuse": [0.20, 0.02], "short_term_postuse": [0.50, 0.02], "1h_postuse": [0.41, 0.02] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,235)=177.22", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,235)=153.01", "p": "<.001" },
+        "form": { "F": "F(1,233)=1.84", "p": ".18" },
+        "form_x_linear": { "F": "F(1,233)=6.37", "p": ".01" },
+        "form_x_quadratic": { "F": "F(1,233)=0.33", "p": ".56" }
+      }
+    },
+    {
+      "domain": "subjective_drug_effects", "measure": "Tension (POMS)", "unit": "scale 0-4",
+      "means_se": {
+        "flower":     { "preuse": [0.35, 0.07], "short_term_postuse": [0.60, 0.07], "1h_postuse": [0.40, 0.07] },
+        "concentrate":{ "preuse": [0.36, 0.06], "short_term_postuse": [0.38, 0.06], "1h_postuse": [0.22, 0.06] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,232)=1.23", "p": ".27" },
+        "time_quadratic": { "F": "F(1,232)=12.13", "p": "<.001" },
+        "form": { "F": "F(1,230)=9.90", "p": "<.01" },
+        "form_x_linear": { "F": "F(1,230)=3.09", "p": ".08" },
+        "form_x_quadratic": { "F": "F(1,230)=2.43", "p": ".12" }
+      }
+    },
+    {
+      "domain": "subjective_drug_effects", "measure": "Vigor (POMS)", "unit": "scale 0-4",
+      "means_se": {
+        "flower":     { "preuse": [1.29, 0.11], "short_term_postuse": [1.83, 0.12], "1h_postuse": [1.66, 0.12] },
+        "concentrate":{ "preuse": [0.98, 0.10], "short_term_postuse": [1.56, 0.10], "1h_postuse": [1.25, 0.11] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,224)=18.67", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,224)=49.86", "p": "<.001" },
+        "form": { "F": "F(1,222)=34.38", "p": "<.001" },
+        "form_x_linear": { "F": "F(1,222)=0.09", "p": ".77" },
+        "form_x_quadratic": { "F": "F(1,222)=0.35", "p": ".56" }
+      }
+    },
+    {
+      "domain": "subjective_drug_effects", "measure": "Intoxication (avg. of feeling high/mentally stoned/physically stoned)", "unit": "scale 0-4",
+      "means_se": {
+        "flower":     { "preuse": [0.08, 0.08], "short_term_postuse": [2.40, 0.08], "1h_postuse": [1.93, 0.08] },
+        "concentrate":{ "preuse": [0.14, 0.08], "short_term_postuse": [2.35, 0.08], "1h_postuse": [1.63, 0.08] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,232)=589.78", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,232)=599.26", "p": "<.001" },
+        "form": { "F": "F(1,230)=2.57", "p": ".11" },
+        "form_x_linear": { "F": "F(1,230)=6.66", "p": ".01" },
+        "form_x_quadratic": { "F": "F(1,230)=0.35", "p": ".56" }
+      },
+      "note": "Central 'Potency != Impairment' data point: main effect of form (flower vs concentrate) on peak subjective intoxication is NOT significant (p=.11) despite concentrate users' plasma THC being ~2.3x flower users'. A significant form x linear interaction (p=.01) does exist -- the two groups' intoxication trajectories differ somewhat in shape even though their overall levels don't separate. Do not flatten this into a simple 'no difference at all' claim."
+    },
+    {
+      "domain": "cognition", "measure": "Inhibitory control (flanker task)", "unit": "task score",
+      "means_se": {
+        "flower":     { "preuse": [99.20, 2.00], "short_term_postuse": [101.45, 2.02], "1h_postuse": [104.38, 2.02] },
+        "concentrate":{ "preuse": [96.13, 1.84], "short_term_postuse": [99.37, 1.83], "1h_postuse": [100.63, 1.83] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,232)=26.69", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,232)=0.12", "p": ".73" },
+        "form": { "F": "F(1,229)=21.16", "p": "<.001" },
+        "form_x_linear": { "F": "F(1,229)=0.14", "p": ".71" },
+        "form_x_quadratic": { "F": "F(1,229)=0.71", "p": ".40" }
+      },
+      "note": "Positive linear effect (scores improved post-use) -- authors hypothesize practice effects rather than a true improvement from cannabis."
+    },
+    {
+      "domain": "cognition", "measure": "Episodic memory (picture task)", "unit": "task score",
+      "means_se": {
+        "flower":     { "preuse": [110.37, 2.47], "short_term_postuse": [112.04, 2.49], "1h_postuse": [114.32, 2.49] },
+        "concentrate":{ "preuse": [111.49, 2.28], "short_term_postuse": [113.52, 2.27], "1h_postuse": [115.19, 2.27] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,226)=3.47", "p": ".06" },
+        "time_quadratic": { "F": "F(1,226)=0.01", "p": ".93" },
+        "form": { "F": "F(1,223)=1.03", "p": ".31" },
+        "form_x_linear": { "F": "F(1,223)=0.16", "p": ".69" },
+        "form_x_quadratic": { "F": "F(1,223)=0.01", "p": ".93" }
+      }
+    },
+    {
+      "domain": "cognition", "measure": "Working memory", "unit": "task score",
+      "means_se": {
+        "flower":     { "preuse": [107.50, 1.58], "short_term_postuse": [107.68, 1.59], "1h_postuse": [113.89, 1.59] },
+        "concentrate":{ "preuse": [105.33, 1.45], "short_term_postuse": [110.35, 1.44], "1h_postuse": [112.37, 1.44] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,234)=42.65", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,234)=0.36", "p": ".55" },
+        "form": { "F": "F(1,231)=0.16", "p": ".69" },
+        "form_x_linear": { "F": "F(1,231)=0.01", "p": ".93" },
+        "form_x_quadratic": { "F": "F(1,231)=5.76", "p": ".02" }
+      }
+    },
+    {
+      "domain": "cognition", "measure": "Verbal recall errors (shopping list, delayed)", "unit": "error count",
+      "means_se": {
+        "flower":     { "preuse": [0.65, 0.30], "short_term_postuse": [2.21, 0.31], "1h_postuse": [1.88, 0.39] },
+        "concentrate":{ "preuse": [0.90, 0.28], "short_term_postuse": [1.50, 0.28], "1h_postuse": [2.33, 0.28] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,203)=32.31", "p": "<.001" },
+        "time_quadratic": { "F": "F(1,203)=1.59", "p": ".21" },
+        "form": { "F": "F(1,200)=0.20", "p": ".65" },
+        "form_x_linear": { "F": "F(1,200)=0.02", "p": ".89" },
+        "form_x_quadratic": { "F": "F(1,200)=5.18", "p": ".02" }
+      },
+      "note": "This is the study's headline impairment finding (cited in the abstract's 'Findings' with F(1,203)=32.31, p<.001): errors increase after use, regardless of form."
+    },
+    {
+      "domain": "balance", "measure": "Sway, eyes open", "unit": "sway index (unit not specified in text)",
+      "means_se": {
+        "flower":     { "preuse": [0.46, 0.03], "short_term_postuse": [0.51, 0.03], "1h_postuse": [0.47, 0.03] },
+        "concentrate":{ "preuse": [0.47, 0.03], "short_term_postuse": [0.49, 0.03], "1h_postuse": [0.48, 0.03] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,203)=0.93", "p": ".34" },
+        "time_quadratic": { "F": "F(1,203)=3.89", "p": ".05" },
+        "form": { "F": "F(1,200)=0.04", "p": ".85" },
+        "form_x_linear": { "F": "F(1,200)=0.43", "p": ".51" },
+        "form_x_quadratic": { "F": "F(1,200)=0.09", "p": ".77" }
+      }
+    },
+    {
+      "domain": "balance", "measure": "Sway, eyes closed", "unit": "sway index (unit not specified in text)",
+      "means_se": {
+        "flower":     { "preuse": [0.63, 0.04], "short_term_postuse": [0.73, 0.04], "1h_postuse": [0.63, 0.04] },
+        "concentrate":{ "preuse": [0.64, 0.03], "short_term_postuse": [0.69, 0.03], "1h_postuse": [0.64, 0.03] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,203)=0.00", "p": ".98" },
+        "time_quadratic": { "F": "F(1,203)=18.88", "p": "<.001" },
+        "form": { "F": "F(1,200)=0.04", "p": ".85" },
+        "form_x_linear": { "F": "F(1,200)=0.17", "p": ".68" },
+        "form_x_quadratic": { "F": "F(1,200)=1.49", "p": ".22" }
+      },
+      "note": "This is the study's headline balance finding (cited in the abstract's 'Findings' with F(1,203)=18.88, p<.001): sway increases short-term post-use then recovers by 1h, regardless of form. Discussion states this is an ~11% increase in sway from preuse to postuse."
+    },
+    {
+      "domain": "balance", "measure": "Sway, eyes closed, head back", "unit": "sway index (unit not specified in text)",
+      "means_se": {
+        "flower":     { "preuse": [0.73, 0.04], "short_term_postuse": [0.75, 0.04], "1h_postuse": [0.65, 0.04] },
+        "concentrate":{ "preuse": [0.73, 0.04], "short_term_postuse": [0.70, 0.04], "1h_postuse": [0.69, 0.04] }
+      },
+      "stats": {
+        "time_linear": { "F": "F(1,203)=2.77", "p": ".10" },
+        "time_quadratic": { "F": "F(1,203)=1.41", "p": ".24" },
+        "form": { "F": "F(1,200)=0.03", "p": ".86" },
+        "form_x_linear": { "F": "F(1,200)=2.86", "p": ".09" },
+        "form_x_quadratic": { "F": "F(1,200)=1.62", "p": ".20" }
+      }
+    }
+  ]
+}

@@ -155,5 +155,131 @@
     "magnitude_provenance": "unavailable",
     "magnitude_note": "Explicitly reported in text as 'data not shown' — no figure or table exists for this measure. No digitization is possible; this remains permanently unavailable at numeric granularity from this source.",
     "source_ref": "Results § 'Performance effects' (P24)"
+  },
+  {
+    "id": "bidwell-2020-plasma-thc-concentrate-gt-flower",
+    "study_id": "bidwell-2020",
+    "variable": "plasma THC (blood)",
+    "unit": "ug/mL",
+    "relationship": "concentrate users reached substantially higher plasma THC than flower users; significant main effect of form and a significant form-by-time(quadratic) interaction",
+    "significance": {
+      "means": { "flower_short_term_postuse": "0.14 (Table-2 model SE 0.03)", "concentrate_short_term_postuse": "0.32 (Table-2 model SE 0.02)" },
+      "stats": {
+        "form_main_effect": { "F": "F(1,228)=11.00", "p": "<.01" },
+        "form_x_quadratic_time": { "F": "F(1,228)=15.07", "p": "<.001" }
+      }
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "magnitude_note": "Point estimates and model SEs are given directly in Table 2. Note a labeling discrepancy: Abstract/Discussion separately restate these same means with variability figures (0.43 for concentrate, 0.16 for flower) labeled 'SE' in the Abstract and 'SD' in the Discussion — see studies.json data_ambiguity_flags for bidwell-2020. That population-level SD/SE is NOT the same number as Table 2's smaller model-based SE quoted above; both are preserved, unreconciled, rather than picking one.",
+    "source_ref": "Table 2; Results 'Cannabinoids' (H2-11); Abstract 'Results'; Discussion"
+  },
+  {
+    "id": "bidwell-2020-intoxication-not-different-by-form",
+    "study_id": "bidwell-2020",
+    "variable": "self-reported intoxication (avg. of feeling high/mentally stoned/physically stoned)",
+    "unit": "scale 0-4",
+    "relationship": "despite ~2.3x higher plasma THC in concentrate users, peak subjective intoxication did NOT differ significantly between flower and concentrate users (main effect of form not significant) -- the study's central Potency =/= Impairment finding",
+    "significance": {
+      "means": { "flower_short_term_postuse": "2.40 (SE 0.08)", "concentrate_short_term_postuse": "2.35 (SE 0.08)" },
+      "stats": {
+        "form_main_effect": { "F": "F(1,230)=2.57", "p": ".11" },
+        "form_x_linear_time": { "F": "F(1,230)=6.66", "p": ".01" }
+      }
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "The headline claim (no overall form difference in peak intoxication) is supported by the non-significant main effect. But do not oversimplify to 'completely identical': the form-by-linear-time interaction IS significant (p=.01), meaning the two groups' intoxication trajectories over the session differ in shape even though their overall levels don't separate. This nuance is exactly the kind of thing the evidence-visualization product should surface rather than flatten.",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "source_ref": "Table 2; Results 'Subjective Drug Effects' (H2-12); Abstract 'Key Points > Findings'"
+  },
+  {
+    "id": "bidwell-2020-tension-vigor-lower-in-concentrate",
+    "study_id": "bidwell-2020",
+    "variable": "Tension and Vigor (POMS subscales)",
+    "unit": "scale 0-4",
+    "relationship": "concentrate users reported LOWER tension and LOWER vigor than flower users across all assessments -- a form effect in the opposite direction from what a simple 'more potent = more intense' model would predict",
+    "significance": {
+      "means": {
+        "tension_flower_short_term": "0.60 (SE 0.07)", "tension_concentrate_short_term": "0.38 (SE 0.06)",
+        "vigor_flower_short_term": "1.83 (SE 0.12)", "vigor_concentrate_short_term": "1.56 (SE 0.10)"
+      },
+      "stats": {
+        "tension_form_main_effect": { "F": "F(1,230)=9.90", "p": "<.01" },
+        "vigor_form_main_effect": { "F": "F(1,222)=34.38", "p": "<.001" }
+      }
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "magnitude_note": "Flagged as a counterintuitive/contradiction-worthy finding per the Deep Research brief's instruction to treat contradiction as a product feature: this is a case where a form effect on subjective state DOES exist, but points opposite to what higher blood THC in concentrate users would predict.",
+    "source_ref": "Table 2; Results 'Subjective Drug Effects' (H2-12)"
+  },
+  {
+    "id": "bidwell-2020-verbal-memory-impaired-regardless-of-form",
+    "study_id": "bidwell-2020",
+    "variable": "delayed verbal recall errors (shopping list task)",
+    "unit": "error count",
+    "relationship": "errors increased after cannabis use in both flower and concentrate users; no significant difference by form or by potency -- impairment occurs but does not track the proxy chain",
+    "significance": {
+      "means": { "flower_preuse": "0.65 (SE 0.30)", "flower_short_term_postuse": "2.21 (SE 0.31)", "concentrate_preuse": "0.90 (SE 0.28)", "concentrate_short_term_postuse": "1.50 (SE 0.28)" },
+      "stats": {
+        "time_linear": { "F": "F(1,203)=32.31", "p": "<.001" },
+        "form_main_effect": { "F": "F(1,200)=0.20", "p": ".65" }
+      }
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "magnitude_note": "This is the abstract's headline cognitive-impairment statistic (F(1,203)=32.31, P<.001), cited verbatim.",
+    "source_ref": "Table 2; Abstract 'Results'; Results 'Neurobehavioral Performance > Cognition' (H3-5)"
+  },
+  {
+    "id": "bidwell-2020-balance-impaired-regardless-of-form",
+    "study_id": "bidwell-2020",
+    "variable": "postural sway, eyes closed",
+    "unit": "sway index",
+    "relationship": "sway increased short-term post-use (~11% increase per Discussion) then recovered to baseline by 1 hour, in both flower and concentrate users; no significant difference by form",
+    "significance": {
+      "means": { "flower_preuse": "0.63 (SE 0.04)", "flower_short_term_postuse": "0.73 (SE 0.04)", "concentrate_preuse": "0.64 (SE 0.03)", "concentrate_short_term_postuse": "0.69 (SE 0.03)" },
+      "stats": {
+        "time_quadratic": { "F": "F(1,203)=18.88", "p": "<.001" },
+        "form_main_effect": { "F": "F(1,200)=0.04", "p": ".85" }
+      }
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "supported",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "exact",
+    "magnitude_note": "This is the abstract's headline balance statistic (F(1,203)=18.88, P<.001), cited verbatim. Authors note this magnitude is comparable to balance effects reported for 0.05-0.10% blood alcohol concentration, and propose balance as a candidate field-sobriety-style marker of recent use.",
+    "source_ref": "Table 2; Discussion; Results 'Neurobehavioral Performance > Balance' (H3-6)"
+  },
+  {
+    "id": "bidwell-2020-no-within-form-potency-effect",
+    "study_id": "bidwell-2020",
+    "variable": "plasma THC by potency subgroup (16% vs 24% flower; 70% vs 90% concentrate)",
+    "unit": "ug/mL",
+    "relationship": "no significant within-form association between labeled THC potency and blood THC levels -- i.e. 16% vs 24% flower did not produce significantly different blood THC, nor did 70% vs 90% concentrate",
+    "significance": {
+      "overall": "text states 'no within-form association of THC potency with blood levels'; no F/p values or means given for the potency subgroup comparison itself in the main text (see Supplement 2 eResults / eTable 1 / eTable 2, not yet retrieved)"
+    },
+    "evidence_type": "naturalistic experiment",
+    "claim_status": "mixed",
+    "claim_status_note": "Supported as a reported null result, but the underlying subgroup statistics live in a supplementary file (jamapsychiatry-77-787-s001.pdf, Supplement 2) that has not yet been fetched -- treat the numeric strength of this null as unconfirmed until that supplement is retrieved.",
+    "interpretation_source": "statistical result",
+    "direction_provenance": "exact",
+    "magnitude_provenance": "unavailable",
+    "magnitude_note": "This is the exact evidentiary basis for the product's rule against fabricating separate 16%-vs-24%-flower or 70%-vs-90%-concentrate plasma values: the source itself only reports non-significance, not the subgroup means.",
+    "source_ref": "Discussion (H1-4); Supplement 2 (eResults, eTable 1, eTable 2) -- not yet retrieved"
   }
 ]

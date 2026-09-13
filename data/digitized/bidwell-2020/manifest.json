@@ -1,0 +1,10 @@
+{
+  "study_id": "bidwell-2020",
+  "status": "reference images only -- digitization NOT required",
+  "note": "Unlike Ramesh 2013, this study reports exact means/SE for every outcome x timepoint x form combination directly in Table 2 (see /data/raw/bidwell-2020/table2-outcomes.json). Figures 1-3 visualize that same Table 2 data plus potency-subgroup (16%/24% flower, 70%/90% concentrate) breakdown lines that are NOT given numerically in the main text. These images are kept for reference/visual-design purposes only; do not digitize them to recover the flower-vs-concentrate values already in Table 2. If a future exhibit needs the potency-subgroup lines, THOSE would need digitization (or extraction from Supplement 2 eTable 1/eTable 2, not yet retrieved) -- flag any such digitized values as provenance='digitized', separate from Table 2's provenance='exact' values.",
+  "figures": [
+    { "id": "F1", "file": "figure1-blood-levels.jpg", "content": "plasma THC and 11-OH-THC by form and potency across preuse/short-term/1h-postuse" },
+    { "id": "F2", "file": "figure2-subjective.jpg", "content": "ARCI-marijuana, intoxication, tension, vigor by form and potency across preuse/short-term/1h-postuse" },
+    { "id": "F3", "file": "figure3-cognition-balance.jpg", "content": "verbal recall errors and eyes-closed balance sway by form and potency across preuse/short-term/1h-postuse" }
+  ]
+}

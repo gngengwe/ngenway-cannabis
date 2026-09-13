@@ -58,5 +58,52 @@
       "amount of marijuana smoked (pre/post cigarette weight difference)"
     ],
     "statistics_method": "Repeated-measures ANOVA with planned comparisons, Huynh-Feldt corrected; significance threshold p<=.05; six planned pairwise comparisons per dependent variable (0v2, 0v4, 0v6, 2v4, 2v6, 4v6 active puffs)"
+  },
+  "bidwell-2020": {
+    "id": "bidwell-2020",
+    "citation": {
+      "authors": "Bidwell LC, YorkWilliams SL, Mueller RL, Bryan AD, Hutchison KE",
+      "title": "Association of naturalistic administration of cannabis flower and concentrates with intoxication and impairment",
+      "journal": "JAMA Psychiatry",
+      "year": 2020,
+      "volume": 77,
+      "issue": 8,
+      "pages": "787-796",
+      "doi": "10.1001/jamapsychiatry.2020.0927",
+      "pmid": "32520316",
+      "pmcid": "PMC7287943",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287943/",
+      "retrieved": "2026-09-13",
+      "retrieval_method": "full HTML text fetched directly from PMC article viewer, verified complete (Key Points/Abstract through Conclusions, Table 1, Table 2, all 3 figures, Discussion, Limitations present)"
+    },
+    "design": "naturalistic",
+    "design_detail": "Cohort study, between-groups design, with random assignment to higher- vs lower-THC product WITHIN user group (flower users randomized to 16% or 24% THC; concentrate users randomized to 70% or 90% THC). No random assignment to flower-vs-concentrate group itself (ethically precluded) and no placebo condition (does not exist in the legal market). Registered as observational study, ClinicalTrials.gov NCT03522103.",
+    "setting": "Mobile laboratory, community/university setting (University of Colorado Boulder); ad libitum use occurred at participants' own residence, purchased from a single Colorado dispensary (The Farm)",
+    "n_enrolled": 133,
+    "n_completed": 133,
+    "n_analyzed": 121,
+    "analysis_note": "133 individuals enrolled and assessed. 12 participants excluded from analysis due to very low postuse THC (<0.02 ug/mL vs study mean 0.24 [SD 0.35] ug/mL), indicating non-compliance with the ad libitum use protocol. Final analyzed N=121: 55 flower users, 66 concentrate users.",
+    "population": "regular cannabis users, self-selected as flower-preferring or concentrate-preferring, ages 21-70",
+    "inclusion_criteria": "used cannabis >=4 times in past month; prior use of the highest potency assignable in the study (24% THC flower or 90% THC concentrate) without adverse reaction; no other non-prescription drug use in past 60 days (urine-confirmed); no daily tobacco use; alcohol use <=2x/week and <=3 drinks/occasion; not pregnant/trying to conceive; not in treatment for psychotic or bipolar disorder",
+    "demographics": {
+      "flower_group": { "n": 55, "age_years": { "mean": 28.8, "sd": 8.1 }, "women_pct": 46 },
+      "concentrate_group": { "n": 66, "age_years": { "mean": 28.3, "sd": 10.4 }, "women_pct": 45 },
+      "note": "Concentrate group reported more frequent current concentrate use and had greater blood THC/metabolites at baseline (pre-use), reflecting greater long-term THC exposure. Table 1 (not yet fully extracted here) additionally breaks demographics/baseline cannabinoid levels down by potency subgroup (16%/24% flower, 70%/90% concentrate).",
+      "source_ref": "Results 'Descriptive Information'; Table 1",
+      "provenance": "exact"
+    },
+    "conditions": ["16% THC flower", "24% THC flower", "70% THC concentrate", "90% THC concentrate"],
+    "condition_detail": "Flower users randomly assigned to purchase 3g of 16% or 24% THC flower; concentrate users randomly assigned to purchase 1g of 70% or 90% THC concentrate, from a single state-licensed dispensary with ISO 17025-accredited lab-tested potency labeling. 5-day ad libitum familiarization period, then a mobile-laboratory experimental day: preuse assessment, then ad libitum use at home via participant's preferred administration method (mean 13.3 min away, SD 7, range 3-47 min), then short-term-postuse assessment, then 1-hour-postuse assessment.",
+    "timepoints": ["preuse", "short-term postuse (~13 min after use)", "1 hour postuse"],
+    "outcome_domains": [
+      "plasma THC and 11-OH-THC (active metabolite)",
+      "subjective drug effects: ARCI-marijuana scale, POMS tension, POMS vigor, self-reported intoxication (avg of feeling high/mentally stoned/physically stoned)",
+      "cognition: inhibitory control (flanker), episodic memory (picture task), working memory, delayed verbal recall errors (shopping list)",
+      "balance: postural sway, eyes open / eyes closed / eyes closed+head back"
+    ],
+    "statistics_method": "Mixed-effect models / repeated-measures ANOVA testing linear and quadratic time effects, main effect of cannabis form (flower vs concentrate), and form-by-time interactions; each model covaried for the measure's own baseline value.",
+    "data_ambiguity_flags": [
+      "Abstract text states plasma THC 'were 0.32 (SE = 0.43) ug/mL in concentrate users ... and 0.14 (SE = 0.16) ug/mL in flower users.' The Discussion section restates the identical numbers as 'mean [SD] of 0.32 [0.43]' and 'mean [SD] of 0.14 [0.16]' -- i.e. the same variability figures are labeled SE in the Abstract and SD in the Discussion. Table 2's model-based SEs for short-term THC are much smaller (flower 0.03, concentrate 0.02), consistent with the Discussion's SD labeling being the more plausible reading (population SD, not a model SE) but this project does not resolve the discrepancy -- both labels are preserved verbatim in content/claims.json rather than silently picked."
+    ]
   }
 }
